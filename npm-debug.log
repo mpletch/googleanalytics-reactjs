@@ -1,0 +1,2158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react-i13n',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /Users/mpletch/Sites/globe/metrics/ga/package.json
+5 warn package.json gatest@1.0.0 No description
+6 warn package.json gatest@1.0.0 No repository field.
+7 warn package.json gatest@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/autobind-decorator/package.json
+9 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel/package.json
+10 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel-preset-es2015/package.json
+11 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel-preset-react/package.json
+12 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babelify/package.json
+13 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/browser-sync/package.json
+14 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/browserify/package.json
+15 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/connect-history-api-fallback/package.json
+16 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp/package.json
+17 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-autoprefixer/package.json
+18 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-notify/package.json
+19 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-rename/package.json
+20 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-sass/package.json
+21 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-uglify/package.json
+22 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-util/package.json
+23 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/history/package.json
+24 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/install/package.json
+25 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/jquery/package.json
+26 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/re-base/package.json
+27 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react/package.json
+28 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-catalyst/package.json
+29 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-dom/package.json
+30 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n-ga/package.json
+31 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-mixin/package.json
+32 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-router/package.json
+33 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/vinyl-buffer/package.json
+34 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/vinyl-source-stream/package.json
+35 verbose installManyTop reading scoped package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/watchify/package.json
+36 info package.json autobind-decorator@1.3.3 No repository field.
+37 info package.json gulp-notify@2.2.0 No license field.
+38 info package.json gulp-rename@1.2.2 No license field.
+39 info package.json re-base@1.5.1 No license field.
+40 info package.json react-catalyst@0.3.0 No license field.
+41 info package.json react-i13n-ga@0.1.3 license should be a valid SPDX license expression
+42 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/package.json
+43 silly cache add args [ 'react-i13n', null ]
+44 verbose cache add spec react-i13n
+45 silly cache add parsed spec { raw: 'react-i13n',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'react-i13n',
+45 silly cache add   rawSpec: '',
+45 silly cache add   spec: '*',
+45 silly cache add   type: 'range' }
+46 silly addNamed react-i13n@*
+47 verbose addNamed "*" is a valid semver range for react-i13n
+48 silly addNameRange { name: 'react-i13n', range: '*', hasData: false }
+49 silly mapToRegistry name react-i13n
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/react-i13n
+53 verbose addNameRange registry:https://registry.npmjs.org/react-i13n not in flight; fetching
+54 verbose request uri https://registry.npmjs.org/react-i13n
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 5:35:58 PM
+57 verbose request id 0f893dcc49be81bc
+58 verbose etag "3OTJMA18OD4F5D075C1KU0HY3"
+59 http request GET https://registry.npmjs.org/react-i13n
+60 http 304 https://registry.npmjs.org/react-i13n
+61 silly get cb [ 304,
+61 silly get   { date: 'Thu, 14 Jan 2016 22:35:59 GMT',
+61 silly get     via: '1.1 varnish',
+61 silly get     'cache-control': 'max-age=300',
+61 silly get     etag: '"3OTJMA18OD4F5D075C1KU0HY3"',
+61 silly get     age: '0',
+61 silly get     connection: 'keep-alive',
+61 silly get     'x-served-by': 'cache-dfw1826-DFW',
+61 silly get     'x-cache': 'MISS',
+61 silly get     'x-cache-hits': '0',
+61 silly get     'x-timer': 'S1452810959.774996,VS0,VE129',
+61 silly get     vary: 'Accept' } ]
+62 verbose etag https://registry.npmjs.org/react-i13n from cache
+63 verbose get saving react-i13n to /Users/mpletch/.npm/registry.npmjs.org/react-i13n/.cache.json
+64 silly addNameRange number 2 { name: 'react-i13n', range: '*', hasData: true }
+65 silly addNameRange versions [ 'react-i13n',
+65 silly addNameRange   [ '0.1.9',
+65 silly addNameRange     '0.1.10',
+65 silly addNameRange     '0.1.11',
+65 silly addNameRange     '0.1.12',
+65 silly addNameRange     '0.1.13',
+65 silly addNameRange     '0.1.14',
+65 silly addNameRange     '0.1.15',
+65 silly addNameRange     '0.1.16',
+65 silly addNameRange     '0.1.17',
+65 silly addNameRange     '0.1.18',
+65 silly addNameRange     '0.1.19',
+65 silly addNameRange     '0.1.20',
+65 silly addNameRange     '0.1.21',
+65 silly addNameRange     '0.1.22',
+65 silly addNameRange     '0.1.23',
+65 silly addNameRange     '0.1.24',
+65 silly addNameRange     '0.1.25',
+65 silly addNameRange     '0.1.26',
+65 silly addNameRange     '0.1.27',
+65 silly addNameRange     '0.1.28',
+65 silly addNameRange     '0.1.29',
+65 silly addNameRange     '0.1.30',
+65 silly addNameRange     '0.2.0-rc1',
+65 silly addNameRange     '1.0.0',
+65 silly addNameRange     '2.0.0',
+65 silly addNameRange     '2.0.1',
+65 silly addNameRange     '1.0.1',
+65 silly addNameRange     '2.0.2',
+65 silly addNameRange     '1.0.2' ] ]
+66 silly addNamed react-i13n@0.1.30
+67 verbose addNamed "0.1.30" is a plain semver version for react-i13n
+68 silly cache afterAdd react-i13n@0.1.30
+69 verbose afterAdd /Users/mpletch/.npm/react-i13n/0.1.30/package/package.json not in flight; writing
+70 verbose afterAdd /Users/mpletch/.npm/react-i13n/0.1.30/package/package.json written
+71 silly install resolved [ { name: 'react-i13n',
+71 silly install resolved     description: 'React I13n provides a performant and scalable solution to application instrumentation.',
+71 silly install resolved     version: '0.1.30',
+71 silly install resolved     main: 'index.js',
+71 silly install resolved     repository:
+71 silly install resolved      { type: 'git',
+71 silly install resolved        url: 'git+ssh://git@github.com/yahoo/react-i13n.git' },
+71 silly install resolved     scripts:
+71 silly install resolved      { func: './tests/functional/saucelabs.sh',
+71 silly install resolved        lint: 'jshint',
+71 silly install resolved        test: 'grunt cover' },
+71 silly install resolved     dependencies:
+71 silly install resolved      { debug: '^2.1.3',
+71 silly install resolved        'hoist-non-react-statics': '^1.0.0',
+71 silly install resolved        'object-assign': '^4.0.0',
+71 silly install resolved        promise: '^7.0.1',
+71 silly install resolved        setimmediate: '^1.0.2',
+71 silly install resolved        'subscribe-ui-event': '^0.2.2' },
+71 silly install resolved     devDependencies:
+71 silly install resolved      { coveralls: '^2.11.1',
+71 silly install resolved        'es5-shim': '^4.0.0',
+71 silly install resolved        'expect.js': '^0.3.1',
+71 silly install resolved        grunt: '^0.4.5',
+71 silly install resolved        'grunt-atomizer': '^3.0.0',
+71 silly install resolved        'grunt-cli': '^0.1.13',
+71 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+71 silly install resolved        'grunt-contrib-connect': '^0.11.2',
+71 silly install resolved        'grunt-contrib-jshint': '^0.11.2',
+71 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+71 silly install resolved        'grunt-react': '^0.12.2',
+71 silly install resolved        'grunt-shell': '^1.1.2',
+71 silly install resolved        'grunt-saucelabs': '^8.3.2',
+71 silly install resolved        'grunt-webpack': '^1.0.8',
+71 silly install resolved        istanbul: '^0.3.0',
+71 silly install resolved        jsdom: '^3.0.0',
+71 silly install resolved        jshint: '^2.5.1',
+71 silly install resolved        minimist: '^1.2.0',
+71 silly install resolved        mocha: '^2.0',
+71 silly install resolved        mockery: '^1.4.0',
+71 silly install resolved        'pre-commit': '^1.0.0',
+71 silly install resolved        react: '<= 0.13.x',
+71 silly install resolved        'react-tools': '<= 0.13.x',
+71 silly install resolved        'xunit-file': '^0.0.7' },
+71 silly install resolved     keywords: [ 'react', 'react-component', 'i13n', 'instrumentation' ],
+71 silly install resolved     peerDependencies: { react: '<0.14.0' },
+71 silly install resolved     precommit: [ 'lint', 'test' ],
+71 silly install resolved     yhint: { excludes: [Object] },
+71 silly install resolved     jshintConfig: { node: true },
+71 silly install resolved     licenses: [ [Object] ],
+71 silly install resolved     gitHead: '3dbd7cabdf8c8e9321ca9527a6221f2aebf9a939',
+71 silly install resolved     bugs: { url: 'https://github.com/yahoo/react-i13n/issues' },
+71 silly install resolved     homepage: 'https://github.com/yahoo/react-i13n',
+71 silly install resolved     _id: 'react-i13n@0.1.30',
+71 silly install resolved     _shasum: '29e19c859ae7a15e1576bcfb0455eece669482d9',
+71 silly install resolved     _from: 'react-i13n@*',
+71 silly install resolved     _npmVersion: '1.4.28',
+71 silly install resolved     _npmUser: { name: 'kaesonho', email: 'kaesonho@yahoo-inc.com' },
+71 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+71 silly install resolved     dist:
+71 silly install resolved      { shasum: '29e19c859ae7a15e1576bcfb0455eece669482d9',
+71 silly install resolved        tarball: 'http://registry.npmjs.org/react-i13n/-/react-i13n-0.1.30.tgz' },
+71 silly install resolved     directories: {},
+71 silly install resolved     _resolved: 'https://registry.npmjs.org/react-i13n/-/react-i13n-0.1.30.tgz',
+71 silly install resolved     readme: 'ERROR: No README data found!' } ]
+72 info install react-i13n@0.1.30 into /Users/mpletch/Sites/globe/metrics/ga
+73 info installOne react-i13n@0.1.30
+74 verbose installOne of react-i13n to /Users/mpletch/Sites/globe/metrics/ga not in flight; installing
+75 verbose lock using /Users/mpletch/.npm/_locks/react-i13n-f08424dba2f4b907.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+76 silly install write writing react-i13n 0.1.30 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+77 verbose unbuild node_modules/react-i13n
+78 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+79 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+80 verbose tar unpack /Users/mpletch/.npm/react-i13n/0.1.30/package.tgz
+81 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+82 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n is being purged
+83 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+84 silly gunzTarPerm modes [ '755', '644' ]
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm extractEntry Gruntfile.js
+89 silly gunzTarPerm extractEntry index.js
+90 silly gunzTarPerm extractEntry dist/components/I13nAnchor.js
+91 silly gunzTarPerm extractEntry dist/components/I13nButton.js
+92 silly gunzTarPerm extractEntry dist/components/I13nDiv.js
+93 silly gunzTarPerm extractEntry dist/libs/EventsQueue.js
+94 silly gunzTarPerm extractEntry dist/libs/I13nNode.js
+95 silly gunzTarPerm extractEntry dist/libs/ReactI13n.js
+96 silly gunzTarPerm extractEntry dist/mixins/I13nMixin.js
+97 silly gunzTarPerm extractEntry dist/mixins/I13nUtils.js
+98 silly gunzTarPerm extractEntry dist/mixins/viewport/ViewportMixin.js
+99 silly gunzTarPerm extractEntry dist/utils/DebugDashboard.js
+100 silly gunzTarPerm extractEntry dist/utils/clickHandler.js
+101 silly gunzTarPerm extractEntry dist/utils/createI13nNode.js
+102 silly gunzTarPerm extractEntry dist/utils/setupI13n.js
+103 silly gunzTarPerm extractEntry .travis.yml
+104 silly gunzTarPerm extractEntry .jshintignore
+105 silly gunzTarPerm extractEntry LICENSE.md
+106 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/package.json
+107 info preinstall react-i13n@0.1.30
+108 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/package.json
+109 silly prepareForInstallMany adding debug@^2.1.3 from react-i13n dependencies
+110 silly prepareForInstallMany adding hoist-non-react-statics@^1.0.0 from react-i13n dependencies
+111 silly prepareForInstallMany adding object-assign@^4.0.0 from react-i13n dependencies
+112 silly prepareForInstallMany adding promise@^7.0.1 from react-i13n dependencies
+113 silly prepareForInstallMany adding setimmediate@^1.0.2 from react-i13n dependencies
+114 silly prepareForInstallMany adding subscribe-ui-event@^0.2.2 from react-i13n dependencies
+115 silly prepareForInstallMany adding react@<0.14.0 from react-i13n peerDependencies
+116 warn peerDependencies The peer dependency react@<0.14.0 included from react-i13n will no
+117 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+118 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+119 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/package.json
+120 silly cache add args [ 'hoist-non-react-statics@^1.0.0', null ]
+121 verbose cache add spec hoist-non-react-statics@^1.0.0
+122 silly cache add parsed spec { raw: 'hoist-non-react-statics@^1.0.0',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'hoist-non-react-statics',
+122 silly cache add   rawSpec: '^1.0.0',
+122 silly cache add   spec: '>=1.0.0 <2.0.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed hoist-non-react-statics@>=1.0.0 <2.0.0
+124 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for hoist-non-react-statics
+125 silly addNameRange { name: 'hoist-non-react-statics',
+125 silly addNameRange   range: '>=1.0.0 <2.0.0',
+125 silly addNameRange   hasData: false }
+126 silly mapToRegistry name hoist-non-react-statics
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/hoist-non-react-statics
+130 verbose addNameRange registry:https://registry.npmjs.org/hoist-non-react-statics not in flight; fetching
+131 silly cache add args [ 'object-assign@^4.0.0', null ]
+132 verbose cache add spec object-assign@^4.0.0
+133 silly cache add parsed spec { raw: 'object-assign@^4.0.0',
+133 silly cache add   scope: null,
+133 silly cache add   name: 'object-assign',
+133 silly cache add   rawSpec: '^4.0.0',
+133 silly cache add   spec: '>=4.0.0 <5.0.0',
+133 silly cache add   type: 'range' }
+134 silly addNamed object-assign@>=4.0.0 <5.0.0
+135 verbose addNamed ">=4.0.0 <5.0.0" is a valid semver range for object-assign
+136 silly addNameRange { name: 'object-assign',
+136 silly addNameRange   range: '>=4.0.0 <5.0.0',
+136 silly addNameRange   hasData: false }
+137 silly mapToRegistry name object-assign
+138 silly mapToRegistry using default registry
+139 silly mapToRegistry registry https://registry.npmjs.org/
+140 silly mapToRegistry uri https://registry.npmjs.org/object-assign
+141 verbose addNameRange registry:https://registry.npmjs.org/object-assign not in flight; fetching
+142 silly cache add args [ 'promise@^7.0.1', null ]
+143 verbose cache add spec promise@^7.0.1
+144 silly cache add parsed spec { raw: 'promise@^7.0.1',
+144 silly cache add   scope: null,
+144 silly cache add   name: 'promise',
+144 silly cache add   rawSpec: '^7.0.1',
+144 silly cache add   spec: '>=7.0.1 <8.0.0',
+144 silly cache add   type: 'range' }
+145 silly addNamed promise@>=7.0.1 <8.0.0
+146 verbose addNamed ">=7.0.1 <8.0.0" is a valid semver range for promise
+147 silly addNameRange { name: 'promise', range: '>=7.0.1 <8.0.0', hasData: false }
+148 silly mapToRegistry name promise
+149 silly mapToRegistry using default registry
+150 silly mapToRegistry registry https://registry.npmjs.org/
+151 silly mapToRegistry uri https://registry.npmjs.org/promise
+152 verbose addNameRange registry:https://registry.npmjs.org/promise not in flight; fetching
+153 silly cache add args [ 'setimmediate@^1.0.2', null ]
+154 verbose cache add spec setimmediate@^1.0.2
+155 silly cache add parsed spec { raw: 'setimmediate@^1.0.2',
+155 silly cache add   scope: null,
+155 silly cache add   name: 'setimmediate',
+155 silly cache add   rawSpec: '^1.0.2',
+155 silly cache add   spec: '>=1.0.2 <2.0.0',
+155 silly cache add   type: 'range' }
+156 silly addNamed setimmediate@>=1.0.2 <2.0.0
+157 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for setimmediate
+158 silly addNameRange { name: 'setimmediate', range: '>=1.0.2 <2.0.0', hasData: false }
+159 silly mapToRegistry name setimmediate
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/setimmediate
+163 verbose addNameRange registry:https://registry.npmjs.org/setimmediate not in flight; fetching
+164 silly cache add args [ 'subscribe-ui-event@^0.2.2', null ]
+165 verbose cache add spec subscribe-ui-event@^0.2.2
+166 silly cache add parsed spec { raw: 'subscribe-ui-event@^0.2.2',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'subscribe-ui-event',
+166 silly cache add   rawSpec: '^0.2.2',
+166 silly cache add   spec: '>=0.2.2 <0.3.0',
+166 silly cache add   type: 'range' }
+167 silly addNamed subscribe-ui-event@>=0.2.2 <0.3.0
+168 verbose addNamed ">=0.2.2 <0.3.0" is a valid semver range for subscribe-ui-event
+169 silly addNameRange { name: 'subscribe-ui-event',
+169 silly addNameRange   range: '>=0.2.2 <0.3.0',
+169 silly addNameRange   hasData: false }
+170 silly mapToRegistry name subscribe-ui-event
+171 silly mapToRegistry using default registry
+172 silly mapToRegistry registry https://registry.npmjs.org/
+173 silly mapToRegistry uri https://registry.npmjs.org/subscribe-ui-event
+174 verbose addNameRange registry:https://registry.npmjs.org/subscribe-ui-event not in flight; fetching
+175 silly cache add args [ 'debug@^2.1.3', null ]
+176 verbose cache add spec debug@^2.1.3
+177 silly cache add parsed spec { raw: 'debug@^2.1.3',
+177 silly cache add   scope: null,
+177 silly cache add   name: 'debug',
+177 silly cache add   rawSpec: '^2.1.3',
+177 silly cache add   spec: '>=2.1.3 <3.0.0',
+177 silly cache add   type: 'range' }
+178 silly addNamed debug@>=2.1.3 <3.0.0
+179 verbose addNamed ">=2.1.3 <3.0.0" is a valid semver range for debug
+180 silly addNameRange { name: 'debug', range: '>=2.1.3 <3.0.0', hasData: false }
+181 silly mapToRegistry name debug
+182 silly mapToRegistry using default registry
+183 silly mapToRegistry registry https://registry.npmjs.org/
+184 silly mapToRegistry uri https://registry.npmjs.org/debug
+185 verbose addNameRange registry:https://registry.npmjs.org/debug not in flight; fetching
+186 verbose request uri https://registry.npmjs.org/promise
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 5:35:59 PM
+189 verbose etag "67JUG2WLD47NEGZ2OH492TQM0"
+190 http request GET https://registry.npmjs.org/promise
+191 verbose request uri https://registry.npmjs.org/hoist-non-react-statics
+192 verbose request no auth needed
+193 info attempt registry request try #1 at 5:35:59 PM
+194 verbose etag "6P3LDU8BXZU9ZMDKMF71K6B41"
+195 http request GET https://registry.npmjs.org/hoist-non-react-statics
+196 verbose request uri https://registry.npmjs.org/object-assign
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 5:35:59 PM
+199 verbose etag "26R4NA5TCYAE2EWZ602UH4A8L"
+200 http request GET https://registry.npmjs.org/object-assign
+201 verbose request uri https://registry.npmjs.org/setimmediate
+202 verbose request no auth needed
+203 info attempt registry request try #1 at 5:35:59 PM
+204 verbose etag "1U7ZDSUF7C40R8V3N0QZ27D36"
+205 http request GET https://registry.npmjs.org/setimmediate
+206 verbose request uri https://registry.npmjs.org/subscribe-ui-event
+207 verbose request no auth needed
+208 info attempt registry request try #1 at 5:35:59 PM
+209 verbose etag "6PVR6HVC3J84CXNUFP0XFG2VH"
+210 http request GET https://registry.npmjs.org/subscribe-ui-event
+211 verbose request uri https://registry.npmjs.org/debug
+212 verbose request no auth needed
+213 info attempt registry request try #1 at 5:35:59 PM
+214 verbose etag "675I8YBROYVNTS5BW7L0RW2X2"
+215 http request GET https://registry.npmjs.org/debug
+216 http 304 https://registry.npmjs.org/object-assign
+217 silly get cb [ 304,
+217 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+217 silly get     via: '1.1 varnish',
+217 silly get     'cache-control': 'max-age=300',
+217 silly get     etag: '"26R4NA5TCYAE2EWZ602UH4A8L"',
+217 silly get     age: '237',
+217 silly get     connection: 'keep-alive',
+217 silly get     'x-served-by': 'cache-dfw1833-DFW',
+217 silly get     'x-cache': 'HIT',
+217 silly get     'x-cache-hits': '11',
+217 silly get     'x-timer': 'S1452810960.452366,VS0,VE0',
+217 silly get     vary: 'Accept' } ]
+218 verbose etag https://registry.npmjs.org/object-assign from cache
+219 verbose get saving object-assign to /Users/mpletch/.npm/registry.npmjs.org/object-assign/.cache.json
+220 silly addNameRange number 2 { name: 'object-assign', range: '>=4.0.0 <5.0.0', hasData: true }
+221 silly addNameRange versions [ 'object-assign',
+221 silly addNameRange   [ '0.1.0',
+221 silly addNameRange     '0.1.1',
+221 silly addNameRange     '0.1.2',
+221 silly addNameRange     '0.2.0',
+221 silly addNameRange     '0.2.1',
+221 silly addNameRange     '0.2.2',
+221 silly addNameRange     '0.3.0',
+221 silly addNameRange     '0.3.1',
+221 silly addNameRange     '0.4.0',
+221 silly addNameRange     '1.0.0',
+221 silly addNameRange     '2.0.0',
+221 silly addNameRange     '3.0.0',
+221 silly addNameRange     '2.1.1',
+221 silly addNameRange     '4.0.0',
+221 silly addNameRange     '4.0.1' ] ]
+222 silly addNamed object-assign@4.0.1
+223 verbose addNamed "4.0.1" is a plain semver version for object-assign
+224 silly cache afterAdd object-assign@4.0.1
+225 verbose afterAdd /Users/mpletch/.npm/object-assign/4.0.1/package/package.json not in flight; writing
+226 verbose afterAdd /Users/mpletch/.npm/object-assign/4.0.1/package/package.json written
+227 http 304 https://registry.npmjs.org/promise
+228 silly get cb [ 304,
+228 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+228 silly get     via: '1.1 varnish',
+228 silly get     'cache-control': 'max-age=300',
+228 silly get     etag: '"67JUG2WLD47NEGZ2OH492TQM0"',
+228 silly get     age: '112',
+228 silly get     connection: 'keep-alive',
+228 silly get     'x-served-by': 'cache-dfw1825-DFW',
+228 silly get     'x-cache': 'HIT',
+228 silly get     'x-cache-hits': '3',
+228 silly get     'x-timer': 'S1452810960.535655,VS0,VE0',
+228 silly get     vary: 'Accept' } ]
+229 verbose etag https://registry.npmjs.org/promise from cache
+230 verbose get saving promise to /Users/mpletch/.npm/registry.npmjs.org/promise/.cache.json
+231 silly addNameRange number 2 { name: 'promise', range: '>=7.0.1 <8.0.0', hasData: true }
+232 silly addNameRange versions [ 'promise',
+232 silly addNameRange   [ '1.2.1',
+232 silly addNameRange     '1.2.2',
+232 silly addNameRange     '1.3.0',
+232 silly addNameRange     '2.0.0',
+232 silly addNameRange     '3.0.0',
+232 silly addNameRange     '3.0.1',
+232 silly addNameRange     '3.1.0',
+232 silly addNameRange     '3.2.0',
+232 silly addNameRange     '4.0.0',
+232 silly addNameRange     '5.0.0',
+232 silly addNameRange     '6.0.0',
+232 silly addNameRange     '6.0.1',
+232 silly addNameRange     '6.1.0',
+232 silly addNameRange     '7.0.0',
+232 silly addNameRange     '7.0.1',
+232 silly addNameRange     '7.0.2',
+232 silly addNameRange     '7.0.3',
+232 silly addNameRange     '7.0.4',
+232 silly addNameRange     '7.1.0',
+232 silly addNameRange     '7.1.1' ] ]
+233 silly addNamed promise@7.1.1
+234 verbose addNamed "7.1.1" is a plain semver version for promise
+235 silly cache afterAdd promise@7.1.1
+236 verbose afterAdd /Users/mpletch/.npm/promise/7.1.1/package/package.json not in flight; writing
+237 verbose afterAdd /Users/mpletch/.npm/promise/7.1.1/package/package.json written
+238 http 304 https://registry.npmjs.org/setimmediate
+239 silly get cb [ 304,
+239 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+239 silly get     via: '1.1 varnish',
+239 silly get     'cache-control': 'max-age=300',
+239 silly get     etag: '"1U7ZDSUF7C40R8V3N0QZ27D36"',
+239 silly get     age: '288',
+239 silly get     connection: 'keep-alive',
+239 silly get     'x-served-by': 'cache-dfw1823-DFW',
+239 silly get     'x-cache': 'HIT',
+239 silly get     'x-cache-hits': '2',
+239 silly get     'x-timer': 'S1452810960.554850,VS0,VE0',
+239 silly get     vary: 'Accept' } ]
+240 verbose etag https://registry.npmjs.org/setimmediate from cache
+241 verbose get saving setimmediate to /Users/mpletch/.npm/registry.npmjs.org/setimmediate/.cache.json
+242 silly addNameRange number 2 { name: 'setimmediate', range: '>=1.0.2 <2.0.0', hasData: true }
+243 silly addNameRange versions [ 'setimmediate',
+243 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3', '1.0.4' ] ]
+244 silly addNamed setimmediate@1.0.4
+245 verbose addNamed "1.0.4" is a plain semver version for setimmediate
+246 silly cache afterAdd setimmediate@1.0.4
+247 verbose afterAdd /Users/mpletch/.npm/setimmediate/1.0.4/package/package.json not in flight; writing
+248 verbose afterAdd /Users/mpletch/.npm/setimmediate/1.0.4/package/package.json written
+249 http 304 https://registry.npmjs.org/debug
+250 silly get cb [ 304,
+250 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+250 silly get     via: '1.1 varnish',
+250 silly get     'cache-control': 'max-age=300',
+250 silly get     etag: '"675I8YBROYVNTS5BW7L0RW2X2"',
+250 silly get     age: '107',
+250 silly get     connection: 'keep-alive',
+250 silly get     'x-served-by': 'cache-dfw1830-DFW',
+250 silly get     'x-cache': 'HIT',
+250 silly get     'x-cache-hits': '8',
+250 silly get     'x-timer': 'S1452810960.564480,VS0,VE0',
+250 silly get     vary: 'Accept' } ]
+251 verbose etag https://registry.npmjs.org/debug from cache
+252 verbose get saving debug to /Users/mpletch/.npm/registry.npmjs.org/debug/.cache.json
+253 http 304 https://registry.npmjs.org/hoist-non-react-statics
+254 silly get cb [ 304,
+254 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+254 silly get     via: '1.1 varnish',
+254 silly get     'cache-control': 'max-age=300',
+254 silly get     etag: '"6P3LDU8BXZU9ZMDKMF71K6B41"',
+254 silly get     age: '47',
+254 silly get     connection: 'keep-alive',
+254 silly get     'x-served-by': 'cache-dfw1832-DFW',
+254 silly get     'x-cache': 'HIT',
+254 silly get     'x-cache-hits': '2',
+254 silly get     'x-timer': 'S1452810960.564447,VS0,VE0',
+254 silly get     vary: 'Accept' } ]
+255 verbose etag https://registry.npmjs.org/hoist-non-react-statics from cache
+256 verbose get saving hoist-non-react-statics to /Users/mpletch/.npm/registry.npmjs.org/hoist-non-react-statics/.cache.json
+257 silly addNameRange number 2 { name: 'debug', range: '>=2.1.3 <3.0.0', hasData: true }
+258 silly addNameRange versions [ 'debug',
+258 silly addNameRange   [ '0.0.1',
+258 silly addNameRange     '0.1.0',
+258 silly addNameRange     '0.2.0',
+258 silly addNameRange     '0.3.0',
+258 silly addNameRange     '0.4.0',
+258 silly addNameRange     '0.4.1',
+258 silly addNameRange     '0.5.0',
+258 silly addNameRange     '0.6.0',
+258 silly addNameRange     '0.7.0',
+258 silly addNameRange     '0.7.1',
+258 silly addNameRange     '0.7.2',
+258 silly addNameRange     '0.7.3',
+258 silly addNameRange     '0.7.4',
+258 silly addNameRange     '0.8.0',
+258 silly addNameRange     '0.8.1',
+258 silly addNameRange     '1.0.0',
+258 silly addNameRange     '1.0.1',
+258 silly addNameRange     '1.0.2',
+258 silly addNameRange     '1.0.3',
+258 silly addNameRange     '1.0.4',
+258 silly addNameRange     '2.0.0',
+258 silly addNameRange     '2.1.0',
+258 silly addNameRange     '2.1.1',
+258 silly addNameRange     '2.1.2',
+258 silly addNameRange     '2.1.3',
+258 silly addNameRange     '2.2.0' ] ]
+259 silly addNamed debug@2.2.0
+260 verbose addNamed "2.2.0" is a plain semver version for debug
+261 silly addNameRange number 2 { name: 'hoist-non-react-statics',
+261 silly addNameRange   range: '>=1.0.0 <2.0.0',
+261 silly addNameRange   hasData: true }
+262 silly addNameRange versions [ 'hoist-non-react-statics',
+262 silly addNameRange   [ '1.0.0', '1.0.1', '1.0.2', '1.0.3' ] ]
+263 silly addNamed hoist-non-react-statics@1.0.3
+264 verbose addNamed "1.0.3" is a plain semver version for hoist-non-react-statics
+265 silly cache afterAdd hoist-non-react-statics@1.0.3
+266 verbose afterAdd /Users/mpletch/.npm/hoist-non-react-statics/1.0.3/package/package.json not in flight; writing
+267 silly cache afterAdd debug@2.2.0
+268 verbose afterAdd /Users/mpletch/.npm/debug/2.2.0/package/package.json not in flight; writing
+269 verbose afterAdd /Users/mpletch/.npm/hoist-non-react-statics/1.0.3/package/package.json written
+270 verbose afterAdd /Users/mpletch/.npm/debug/2.2.0/package/package.json written
+271 http 304 https://registry.npmjs.org/subscribe-ui-event
+272 silly get cb [ 304,
+272 silly get   { date: 'Thu, 14 Jan 2016 22:36:00 GMT',
+272 silly get     via: '1.1 varnish',
+272 silly get     'cache-control': 'max-age=300',
+272 silly get     etag: '"6PVR6HVC3J84CXNUFP0XFG2VH"',
+272 silly get     age: '0',
+272 silly get     connection: 'keep-alive',
+272 silly get     'x-served-by': 'cache-dfw1828-DFW',
+272 silly get     'x-cache': 'MISS',
+272 silly get     'x-cache-hits': '0',
+272 silly get     'x-timer': 'S1452810960.533231,VS0,VE99',
+272 silly get     vary: 'Accept' } ]
+273 verbose etag https://registry.npmjs.org/subscribe-ui-event from cache
+274 verbose get saving subscribe-ui-event to /Users/mpletch/.npm/registry.npmjs.org/subscribe-ui-event/.cache.json
+275 silly addNameRange number 2 { name: 'subscribe-ui-event',
+275 silly addNameRange   range: '>=0.2.2 <0.3.0',
+275 silly addNameRange   hasData: true }
+276 silly addNameRange versions [ 'subscribe-ui-event',
+276 silly addNameRange   [ '0.1.0',
+276 silly addNameRange     '0.1.1',
+276 silly addNameRange     '0.1.2',
+276 silly addNameRange     '0.1.3',
+276 silly addNameRange     '0.1.4',
+276 silly addNameRange     '0.2.0',
+276 silly addNameRange     '0.2.1',
+276 silly addNameRange     '0.2.2',
+276 silly addNameRange     '0.2.3',
+276 silly addNameRange     '0.2.4',
+276 silly addNameRange     '0.2.5',
+276 silly addNameRange     '0.2.6',
+276 silly addNameRange     '0.2.7',
+276 silly addNameRange     '0.2.8',
+276 silly addNameRange     '0.2.9',
+276 silly addNameRange     '0.2.10',
+276 silly addNameRange     '1.0.0',
+276 silly addNameRange     '1.0.1' ] ]
+277 silly addNamed subscribe-ui-event@0.2.10
+278 verbose addNamed "0.2.10" is a plain semver version for subscribe-ui-event
+279 silly cache afterAdd subscribe-ui-event@0.2.10
+280 verbose afterAdd /Users/mpletch/.npm/subscribe-ui-event/0.2.10/package/package.json not in flight; writing
+281 verbose afterAdd /Users/mpletch/.npm/subscribe-ui-event/0.2.10/package/package.json written
+282 silly install resolved [ { name: 'object-assign',
+282 silly install resolved     version: '4.0.1',
+282 silly install resolved     description: 'ES6 Object.assign() ponyfill',
+282 silly install resolved     license: 'MIT',
+282 silly install resolved     repository:
+282 silly install resolved      { type: 'git',
+282 silly install resolved        url: 'git+https://github.com/sindresorhus/object-assign.git' },
+282 silly install resolved     author:
+282 silly install resolved      { name: 'Sindre Sorhus',
+282 silly install resolved        email: 'sindresorhus@gmail.com',
+282 silly install resolved        url: 'http://sindresorhus.com' },
+282 silly install resolved     engines: { node: '>=0.10.0' },
+282 silly install resolved     scripts: { test: 'xo && mocha', bench: 'matcha bench.js' },
+282 silly install resolved     files: [ 'index.js' ],
+282 silly install resolved     keywords:
+282 silly install resolved      [ 'object',
+282 silly install resolved        'assign',
+282 silly install resolved        'extend',
+282 silly install resolved        'properties',
+282 silly install resolved        'es6',
+282 silly install resolved        'ecmascript',
+282 silly install resolved        'harmony',
+282 silly install resolved        'ponyfill',
+282 silly install resolved        'prollyfill',
+282 silly install resolved        'polyfill',
+282 silly install resolved        'shim',
+282 silly install resolved        'browser' ],
+282 silly install resolved     devDependencies: { lodash: '^3.10.1', matcha: '^0.6.0', mocha: '*', xo: '*' },
+282 silly install resolved     xo: { envs: [Object] },
+282 silly install resolved     gitHead: 'b0c40d37cbc43e89ad3326a9bad4c6b3133ba6d3',
+282 silly install resolved     bugs: { url: 'https://github.com/sindresorhus/object-assign/issues' },
+282 silly install resolved     homepage: 'https://github.com/sindresorhus/object-assign#readme',
+282 silly install resolved     _id: 'object-assign@4.0.1',
+282 silly install resolved     _shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+282 silly install resolved     _from: 'object-assign@>=4.0.0 <5.0.0',
+282 silly install resolved     _npmVersion: '2.13.3',
+282 silly install resolved     _nodeVersion: '3.0.0',
+282 silly install resolved     _npmUser: { name: 'sindresorhus', email: 'sindresorhus@gmail.com' },
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: '99504456c3598b5cad4fc59c26e8a9bb107fe0bd',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz' },
+282 silly install resolved     maintainers: [ [Object] ],
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/object-assign/-/object-assign-4.0.1.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' },
+282 silly install resolved   { name: 'promise',
+282 silly install resolved     version: '7.1.1',
+282 silly install resolved     description: 'Bare bones Promises/A+ implementation',
+282 silly install resolved     main: 'index.js',
+282 silly install resolved     scripts:
+282 silly install resolved      { prepublish: 'node build',
+282 silly install resolved        pretest: 'node build',
+282 silly install resolved        'pretest-resolve': 'node build',
+282 silly install resolved        'pretest-extensions': 'node build',
+282 silly install resolved        'pretest-memory-leak': 'node build',
+282 silly install resolved        test: 'mocha --bail --timeout 200 --slow 99999 -R dot && npm run test-memory-leak',
+282 silly install resolved        'test-resolve': 'mocha test/resolver-tests.js --timeout 200 --slow 999999',
+282 silly install resolved        'test-extensions': 'mocha test/extensions-tests.js --timeout 200 --slow 999999',
+282 silly install resolved        'test-memory-leak': 'node --expose-gc test/memory-leak.js',
+282 silly install resolved        coverage: 'istanbul cover node_modules/mocha/bin/_mocha -- --bail --timeout 200 --slow 99999 -R dot' },
+282 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/then/promise.git' },
+282 silly install resolved     author: { name: 'ForbesLindesay' },
+282 silly install resolved     license: 'MIT',
+282 silly install resolved     devDependencies:
+282 silly install resolved      { acorn: '^1.0.1',
+282 silly install resolved        'better-assert': '*',
+282 silly install resolved        istanbul: '^0.3.13',
+282 silly install resolved        mocha: '*',
+282 silly install resolved        'promises-aplus-tests': '*',
+282 silly install resolved        rimraf: '^2.3.2' },
+282 silly install resolved     dependencies: { asap: '~2.0.3' },
+282 silly install resolved     gitHead: '90757a38c86975f36893012581b72315b352d482',
+282 silly install resolved     bugs: { url: 'https://github.com/then/promise/issues' },
+282 silly install resolved     homepage: 'https://github.com/then/promise',
+282 silly install resolved     _id: 'promise@7.1.1',
+282 silly install resolved     _shasum: '489654c692616b8aa55b0724fa809bb7db49c5bf',
+282 silly install resolved     _from: 'promise@>=7.0.1 <8.0.0',
+282 silly install resolved     _npmVersion: '2.7.1',
+282 silly install resolved     _nodeVersion: '1.6.2',
+282 silly install resolved     _npmUser: { name: 'forbeslindesay', email: 'forbes@lindesay.co.uk' },
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: '489654c692616b8aa55b0724fa809bb7db49c5bf',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/promise/-/promise-7.1.1.tgz' },
+282 silly install resolved     maintainers: [ [Object], [Object] ],
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/promise/-/promise-7.1.1.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' },
+282 silly install resolved   { name: 'setimmediate',
+282 silly install resolved     description: 'A shim for the setImmediate efficient script yielding API',
+282 silly install resolved     version: '1.0.4',
+282 silly install resolved     author: { name: 'YuzuJS' },
+282 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+282 silly install resolved     license: 'MIT',
+282 silly install resolved     repository:
+282 silly install resolved      { type: 'git',
+282 silly install resolved        url: 'git+https://github.com/yuzujs/setImmediate.git' },
+282 silly install resolved     main: 'setImmediate.js',
+282 silly install resolved     scripts:
+282 silly install resolved      { lint: 'jshint setImmediate.js',
+282 silly install resolved        test: 'mocha test/tests.js',
+282 silly install resolved        'test-browser': 'opener http://localhost:9008/__zuul && zuul test/tests.js --ui mocha-bdd --local 9008',
+282 silly install resolved        'test-browser-only': 'opener http://localhost:9007/test/browserOnly/index.html && http-server . -p 9007' },
+282 silly install resolved     devDependencies:
+282 silly install resolved      { jshint: '^2.5.0',
+282 silly install resolved        mocha: '~1.18.2',
+282 silly install resolved        'http-server': '~0.6.1',
+282 silly install resolved        opener: '^1.3',
+282 silly install resolved        zuul: '^1.6.4' },
+282 silly install resolved     gitHead: 'f15fe2649c6e1722c57be0fd11b0e251f8bbff4b',
+282 silly install resolved     bugs: { url: 'https://github.com/yuzujs/setImmediate/issues' },
+282 silly install resolved     homepage: 'https://github.com/yuzujs/setImmediate#readme',
+282 silly install resolved     _id: 'setimmediate@1.0.4',
+282 silly install resolved     _shasum: '20e81de622d4a02588ce0c8da8973cbcf1d3138f',
+282 silly install resolved     _from: 'setimmediate@>=1.0.2 <2.0.0',
+282 silly install resolved     _npmVersion: '2.14.3',
+282 silly install resolved     _nodeVersion: '4.1.0',
+282 silly install resolved     _npmUser: { name: 'domenic', email: 'd@domenic.me' },
+282 silly install resolved     maintainers: [ [Object] ],
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: '20e81de622d4a02588ce0c8da8973cbcf1d3138f',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/setimmediate/-/setimmediate-1.0.4.tgz' },
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/setimmediate/-/setimmediate-1.0.4.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' },
+282 silly install resolved   { name: 'hoist-non-react-statics',
+282 silly install resolved     version: '1.0.3',
+282 silly install resolved     description: 'Copies non-react specific statics from a child component to a parent component',
+282 silly install resolved     main: 'index.js',
+282 silly install resolved     repository:
+282 silly install resolved      { type: 'git',
+282 silly install resolved        url: 'git://github.com/mridgway/hoist-non-react-statics.git' },
+282 silly install resolved     scripts:
+282 silly install resolved      { cover: 'node node_modules/istanbul/lib/cli.js cover --dir artifacts -- ./node_modules/mocha/bin/_mocha tests/unit/ --recursive --compilers js:babel/register --reporter spec',
+282 silly install resolved        lint: 'eslint ./index.js',
+282 silly install resolved        test: 'mocha tests/unit/ --recursive --compilers js:babel/register --reporter spec' },
+282 silly install resolved     author: { name: 'Michael Ridgway', email: 'mridgway@yahoo-inc.com' },
+282 silly install resolved     licenses: [ [Object] ],
+282 silly install resolved     devDependencies:
+282 silly install resolved      { babel: '^5.0.7',
+282 silly install resolved        'babel-eslint': '^3.0.1',
+282 silly install resolved        chai: '^2.0.0',
+282 silly install resolved        coveralls: '^2.11.1',
+282 silly install resolved        eslint: '^0.21.0',
+282 silly install resolved        istanbul: '^0.3.2',
+282 silly install resolved        mocha: '^2.0.1',
+282 silly install resolved        'pre-commit': '^1.0.7',
+282 silly install resolved        react: '^0.13.3' },
+282 silly install resolved     keywords: [ 'react' ],
+282 silly install resolved     gitHead: '91e65b1c10e3a37d5f94ef1424b3233e442d69e9',
+282 silly install resolved     bugs: { url: 'https://github.com/mridgway/hoist-non-react-statics/issues' },
+282 silly install resolved     homepage: 'https://github.com/mridgway/hoist-non-react-statics#readme',
+282 silly install resolved     _id: 'hoist-non-react-statics@1.0.3',
+282 silly install resolved     _shasum: '22cfc787e53cc7cf4832ee35214fa3c55ef2d8aa',
+282 silly install resolved     _from: 'hoist-non-react-statics@>=1.0.0 <2.0.0',
+282 silly install resolved     _npmVersion: '2.11.3',
+282 silly install resolved     _nodeVersion: '0.10.33',
+282 silly install resolved     _npmUser: { name: 'mridgway', email: 'mcridgway@gmail.com' },
+282 silly install resolved     maintainers: [ [Object] ],
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: '22cfc787e53cc7cf4832ee35214fa3c55ef2d8aa',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.0.3.tgz' },
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-1.0.3.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' },
+282 silly install resolved   { name: 'debug',
+282 silly install resolved     version: '2.2.0',
+282 silly install resolved     repository: { type: 'git', url: 'git://github.com/visionmedia/debug.git' },
+282 silly install resolved     description: 'small debugging utility',
+282 silly install resolved     keywords: [ 'debug', 'log', 'debugger' ],
+282 silly install resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+282 silly install resolved     contributors: [ [Object] ],
+282 silly install resolved     license: 'MIT',
+282 silly install resolved     dependencies: { ms: '0.7.1' },
+282 silly install resolved     devDependencies: { browserify: '9.0.3', mocha: '*' },
+282 silly install resolved     main: './node.js',
+282 silly install resolved     browser: './browser.js',
+282 silly install resolved     component: { scripts: [Object] },
+282 silly install resolved     gitHead: 'b38458422b5aa8aa6d286b10dfe427e8a67e2b35',
+282 silly install resolved     bugs: { url: 'https://github.com/visionmedia/debug/issues' },
+282 silly install resolved     homepage: 'https://github.com/visionmedia/debug',
+282 silly install resolved     _id: 'debug@2.2.0',
+282 silly install resolved     scripts: {},
+282 silly install resolved     _shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+282 silly install resolved     _from: 'debug@>=2.1.3 <3.0.0',
+282 silly install resolved     _npmVersion: '2.7.4',
+282 silly install resolved     _nodeVersion: '0.12.2',
+282 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+282 silly install resolved     maintainers: [ [Object], [Object] ],
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: 'f87057e995b1a1f6ae6a4960664137bc56f039da',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/debug/-/debug-2.2.0.tgz' },
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/debug/-/debug-2.2.0.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' },
+282 silly install resolved   { name: 'subscribe-ui-event',
+282 silly install resolved     version: '0.2.10',
+282 silly install resolved     description: 'A single, throttle built-in solution to subscribe to browser UI Events.',
+282 silly install resolved     main: 'index.js',
+282 silly install resolved     scripts:
+282 silly install resolved      { func: './tests/functional/saucelabs.sh',
+282 silly install resolved        lint: 'jshint',
+282 silly install resolved        test: 'grunt cover' },
+282 silly install resolved     repository:
+282 silly install resolved      { type: 'git',
+282 silly install resolved        url: 'git+https://github.com/yahoo/subscribe-ui-event.git' },
+282 silly install resolved     keywords:
+282 silly install resolved      [ 'browser',
+282 silly install resolved        'events',
+282 silly install resolved        'requestAnimationFrame',
+282 silly install resolved        'resize',
+282 silly install resolved        'scroll',
+282 silly install resolved        'subscribe',
+282 silly install resolved        'throttle' ],
+282 silly install resolved     author: { name: 'Hank Hsiao', email: 'hankxiao@yahoo-inc.com' },
+282 silly install resolved     dependencies:
+282 silly install resolved      { eventemitter3: '^1.1.0',
+282 silly install resolved        'lodash.throttle': '^3.0.3',
+282 silly install resolved        raf: '^3.0.0' },
+282 silly install resolved     devDependencies:
+282 silly install resolved      { async: '^1.4.0',
+282 silly install resolved        'babel-loader': '^5.1.3',
+282 silly install resolved        coveralls: '^2.11.1',
+282 silly install resolved        'es5-shim': '^4.0.0',
+282 silly install resolved        'expect.js': '^0.3.1',
+282 silly install resolved        'grunt-atomizer': '^3.0.0',
+282 silly install resolved        'grunt-babel': '^5.0.0',
+282 silly install resolved        'grunt-cli': '^0.1.13',
+282 silly install resolved        'grunt-contrib-clean': '^0.6.0',
+282 silly install resolved        'grunt-contrib-connect': '^0.11.0',
+282 silly install resolved        'grunt-contrib-jshint': '^0.11.2',
+282 silly install resolved        'grunt-contrib-watch': '^0.6.1',
+282 silly install resolved        'grunt-saucelabs': '^8.3.2',
+282 silly install resolved        'grunt-shell': '^1.1.2',
+282 silly install resolved        'grunt-webpack': '^1.0.8',
+282 silly install resolved        grunt: '^0.4.5',
+282 silly install resolved        istanbul: '^0.3.0',
+282 silly install resolved        jsdom: '^6.0.0',
+282 silly install resolved        jshint: '^2.5.1',
+282 silly install resolved        minimist: '^1.0.0',
+282 silly install resolved        mocha: '^2.0',
+282 silly install resolved        mockery: '^1.4.0',
+282 silly install resolved        'pre-commit': '^1.0.0',
+282 silly install resolved        react: '^0.14.0',
+282 silly install resolved        'react-dom': '^0.14.0',
+282 silly install resolved        'xunit-file': '^0.0.7' },
+282 silly install resolved     precommit: [ 'lint', 'test' ],
+282 silly install resolved     licenses: 'BSD-3-Clause',
+282 silly install resolved     gitHead: 'a0b23b834ba9ad5dbb26263babc4f6d1c9361c9c',
+282 silly install resolved     bugs: { url: 'https://github.com/yahoo/subscribe-ui-event/issues' },
+282 silly install resolved     homepage: 'https://github.com/yahoo/subscribe-ui-event',
+282 silly install resolved     _id: 'subscribe-ui-event@0.2.10',
+282 silly install resolved     _shasum: '56d7010833158da4cf50bdf3bbf5a37535af3c70',
+282 silly install resolved     _from: 'subscribe-ui-event@>=0.2.2 <0.3.0',
+282 silly install resolved     _npmVersion: '2.11.3',
+282 silly install resolved     _nodeVersion: '0.12.7',
+282 silly install resolved     _npmUser: { name: 'hankhsiao', email: 'hankxiao@yahoo-inc.com' },
+282 silly install resolved     maintainers: [ [Object] ],
+282 silly install resolved     dist:
+282 silly install resolved      { shasum: '56d7010833158da4cf50bdf3bbf5a37535af3c70',
+282 silly install resolved        tarball: 'http://registry.npmjs.org/subscribe-ui-event/-/subscribe-ui-event-0.2.10.tgz' },
+282 silly install resolved     directories: {},
+282 silly install resolved     _resolved: 'https://registry.npmjs.org/subscribe-ui-event/-/subscribe-ui-event-0.2.10.tgz',
+282 silly install resolved     readme: 'ERROR: No README data found!' } ]
+283 info install object-assign@4.0.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+284 info install promise@7.1.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+285 info install setimmediate@1.0.4 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+286 info install hoist-non-react-statics@1.0.3 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+287 info install debug@2.2.0 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+288 info install subscribe-ui-event@0.2.10 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+289 info installOne object-assign@4.0.1
+290 verbose installOne of object-assign to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+291 info installOne promise@7.1.1
+292 verbose installOne of promise to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+293 info installOne setimmediate@1.0.4
+294 verbose installOne of setimmediate to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+295 info installOne hoist-non-react-statics@1.0.3
+296 verbose installOne of hoist-non-react-statics to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+297 info installOne debug@2.2.0
+298 verbose installOne of debug to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+299 info installOne subscribe-ui-event@0.2.10
+300 verbose installOne of subscribe-ui-event to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n not in flight; installing
+301 verbose lock using /Users/mpletch/.npm/_locks/object-assign-80bbbfe35ec5fce8.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+302 verbose lock using /Users/mpletch/.npm/_locks/hoist-non-react-statics-d015a8b2a88d4193.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+303 verbose lock using /Users/mpletch/.npm/_locks/promise-8518ce37e091665d.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+304 silly install write writing object-assign 4.0.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+305 silly install write writing hoist-non-react-statics 1.0.3 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+306 silly install write writing promise 7.1.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+307 verbose lock using /Users/mpletch/.npm/_locks/debug-4b4ff242b5e65ff0.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+308 verbose lock using /Users/mpletch/.npm/_locks/setimmediate-7171ab1e3c37998c.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+309 verbose lock using /Users/mpletch/.npm/_locks/subscribe-ui-event-1da397cfb3f29ef5.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+310 silly install write writing debug 2.2.0 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+311 silly install write writing setimmediate 1.0.4 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+312 silly install write writing subscribe-ui-event 0.2.10 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+313 verbose unbuild node_modules/react-i13n/node_modules/object-assign
+314 verbose unbuild node_modules/react-i13n/node_modules/hoist-non-react-statics
+315 verbose unbuild node_modules/react-i13n/node_modules/promise
+316 verbose unbuild node_modules/react-i13n/node_modules/debug
+317 verbose unbuild node_modules/react-i13n/node_modules/setimmediate
+318 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event
+319 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+320 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+321 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+322 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+323 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+324 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+325 verbose tar unpack /Users/mpletch/.npm/object-assign/4.0.1/package.tgz
+326 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+327 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign is being purged
+328 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+329 verbose tar unpack /Users/mpletch/.npm/hoist-non-react-statics/1.0.3/package.tgz
+330 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+331 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics is being purged
+332 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+333 verbose tar unpack /Users/mpletch/.npm/promise/7.1.1/package.tgz
+334 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+335 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise is being purged
+336 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+337 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+338 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+339 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+340 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+341 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+342 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+343 silly gunzTarPerm modes [ '755', '644' ]
+344 silly gunzTarPerm modes [ '755', '644' ]
+345 silly gunzTarPerm modes [ '755', '644' ]
+346 verbose tar unpack /Users/mpletch/.npm/debug/2.2.0/package.tgz
+347 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+348 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug is being purged
+349 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+350 verbose tar unpack /Users/mpletch/.npm/setimmediate/1.0.4/package.tgz
+351 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+352 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate is being purged
+353 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+354 verbose tar unpack /Users/mpletch/.npm/subscribe-ui-event/0.2.10/package.tgz
+355 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+356 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event is being purged
+357 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+358 silly gunzTarPerm modes [ '755', '644' ]
+359 silly gunzTarPerm modes [ '755', '644' ]
+360 silly gunzTarPerm modes [ '755', '644' ]
+361 silly gunzTarPerm extractEntry package.json
+362 silly gunzTarPerm extractEntry package.json
+363 silly gunzTarPerm extractEntry package.json
+364 silly gunzTarPerm extractEntry package.json
+365 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+366 silly gunzTarPerm extractEntry package.json
+367 silly gunzTarPerm extractEntry package.json
+368 silly gunzTarPerm extractEntry .npmignore
+369 silly gunzTarPerm extractEntry LICENSE
+370 silly gunzTarPerm extractEntry index.js
+371 silly gunzTarPerm extractEntry license
+372 silly gunzTarPerm extractEntry .npmignore
+373 silly gunzTarPerm extractEntry README.md
+374 silly gunzTarPerm extractEntry README.md
+375 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+376 silly gunzTarPerm extractEntry setImmediate.js
+377 silly gunzTarPerm modified mode [ 'setImmediate.js', 438, 420 ]
+378 silly gunzTarPerm extractEntry .npmignore
+379 silly gunzTarPerm extractEntry node.js
+380 silly gunzTarPerm extractEntry .npmignore
+381 silly gunzTarPerm extractEntry README.md
+382 silly gunzTarPerm extractEntry build.js
+383 silly gunzTarPerm extractEntry core.js
+384 silly gunzTarPerm extractEntry index.js
+385 silly gunzTarPerm extractEntry polyfill-done.js
+386 silly gunzTarPerm extractEntry polyfill.js
+387 silly gunzTarPerm extractEntry domains/core.js
+388 silly gunzTarPerm extractEntry domains/done.js
+389 silly gunzTarPerm extractEntry domains/es6-extensions.js
+390 silly gunzTarPerm extractEntry domains/finally.js
+391 silly gunzTarPerm extractEntry domains/index.js
+392 silly gunzTarPerm extractEntry domains/node-extensions.js
+393 silly gunzTarPerm extractEntry domains/rejection-tracking.js
+394 silly gunzTarPerm extractEntry domains/synchronous.js
+395 silly gunzTarPerm extractEntry .jshintrc
+396 silly gunzTarPerm extractEntry lib/core.js
+397 silly gunzTarPerm extractEntry lib/done.js
+398 silly gunzTarPerm extractEntry lib/es6-extensions.js
+399 silly gunzTarPerm extractEntry lib/finally.js
+400 silly gunzTarPerm extractEntry lib/index.js
+401 silly gunzTarPerm extractEntry lib/node-extensions.js
+402 silly gunzTarPerm extractEntry lib/rejection-tracking.js
+403 silly gunzTarPerm extractEntry lib/synchronous.js
+404 silly gunzTarPerm extractEntry src/core.js
+405 silly gunzTarPerm extractEntry src/done.js
+406 silly gunzTarPerm extractEntry src/es6-extensions.js
+407 silly gunzTarPerm extractEntry src/finally.js
+408 silly gunzTarPerm extractEntry src/index.js
+409 silly gunzTarPerm extractEntry src/node-extensions.js
+410 silly gunzTarPerm extractEntry src/rejection-tracking.js
+411 silly gunzTarPerm extractEntry src/synchronous.js
+412 silly gunzTarPerm extractEntry Readme.md
+413 silly gunzTarPerm extractEntry setimmediate/core.js
+414 silly gunzTarPerm extractEntry setimmediate/done.js
+415 silly gunzTarPerm extractEntry setimmediate/es6-extensions.js
+416 silly gunzTarPerm extractEntry setimmediate/finally.js
+417 silly gunzTarPerm extractEntry setimmediate/index.js
+418 silly gunzTarPerm extractEntry setimmediate/node-extensions.js
+419 silly gunzTarPerm extractEntry setimmediate/rejection-tracking.js
+420 silly gunzTarPerm extractEntry setimmediate/synchronous.js
+421 silly gunzTarPerm extractEntry readme.md
+422 silly gunzTarPerm extractEntry LICENSE.txt
+423 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+424 silly gunzTarPerm extractEntry debug.js
+425 silly gunzTarPerm extractEntry browser.js
+426 silly gunzTarPerm extractEntry index.js
+427 silly gunzTarPerm extractEntry LICENSE.md
+428 silly gunzTarPerm extractEntry .travis.yml
+429 silly gunzTarPerm extractEntry .eslintrc
+430 silly gunzTarPerm extractEntry .idea/.name
+431 silly gunzTarPerm extractEntry .idea/hoist-non-react-statics.iml
+432 silly gunzTarPerm extractEntry .idea/misc.xml
+433 silly gunzTarPerm extractEntry .idea/modules.xml
+434 silly gunzTarPerm extractEntry .idea/vcs.xml
+435 silly gunzTarPerm extractEntry .idea/workspace.xml
+436 silly gunzTarPerm extractEntry .coveralls.yml
+437 silly gunzTarPerm extractEntry Gruntfile.js
+438 silly gunzTarPerm extractEntry Readme.md
+439 silly gunzTarPerm extractEntry index.js
+440 silly gunzTarPerm extractEntry dist/AugmentedEvent.js
+441 silly gunzTarPerm extractEntry bower.json
+442 silly gunzTarPerm extractEntry .jshintrc
+443 silly gunzTarPerm extractEntry dist/eventEmitter.js
+444 silly gunzTarPerm extractEntry dist/subscribe.js
+445 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign/package.json
+446 info preinstall object-assign@4.0.1
+447 silly gunzTarPerm extractEntry component.json
+448 silly gunzTarPerm extractEntry Makefile
+449 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign/package.json
+450 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign/package.json
+451 silly install resolved []
+452 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+453 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+454 silly gunzTarPerm extractEntry dist/unsubscribe.js
+455 silly gunzTarPerm extractEntry dist/eventHandlers/index.js
+456 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate/package.json
+457 silly gunzTarPerm extractEntry History.md
+458 info linkStuff object-assign@4.0.1
+459 silly linkStuff object-assign@4.0.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+460 info preinstall setimmediate@1.0.4
+461 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate/package.json
+462 silly gunzTarPerm extractEntry dist/lib/leIE8.js
+463 silly gunzTarPerm extractEntry dist/lib/rAFThrottle.js
+464 verbose linkBins object-assign@4.0.1
+465 verbose linkMans object-assign@4.0.1
+466 verbose rebuildBundles object-assign@4.0.1
+467 info install object-assign@4.0.1
+468 info postinstall object-assign@4.0.1
+469 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate/package.json
+470 verbose unlock done using /Users/mpletch/.npm/_locks/object-assign-80bbbfe35ec5fce8.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/object-assign
+471 silly install resolved []
+472 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+473 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+474 silly gunzTarPerm extractEntry LICENSE.md
+475 silly gunzTarPerm extractEntry .travis.yml
+476 info linkStuff setimmediate@1.0.4
+477 silly linkStuff setimmediate@1.0.4 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+478 verbose linkBins setimmediate@1.0.4
+479 verbose linkMans setimmediate@1.0.4
+480 verbose rebuildBundles setimmediate@1.0.4
+481 info install setimmediate@1.0.4
+482 info postinstall setimmediate@1.0.4
+483 verbose unlock done using /Users/mpletch/.npm/_locks/setimmediate-7171ab1e3c37998c.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/setimmediate
+484 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/package.json
+485 info preinstall debug@2.2.0
+486 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/package.json
+487 silly prepareForInstallMany adding ms@0.7.1 from debug dependencies
+488 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/package.json
+489 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics/package.json
+490 info preinstall hoist-non-react-statics@1.0.3
+491 silly cache add args [ 'ms@0.7.1', null ]
+492 verbose cache add spec ms@0.7.1
+493 silly cache add parsed spec { raw: 'ms@0.7.1',
+493 silly cache add   scope: null,
+493 silly cache add   name: 'ms',
+493 silly cache add   rawSpec: '0.7.1',
+493 silly cache add   spec: '0.7.1',
+493 silly cache add   type: 'version' }
+494 silly addNamed ms@0.7.1
+495 verbose addNamed "0.7.1" is a plain semver version for ms
+496 silly mapToRegistry name ms
+497 silly mapToRegistry using default registry
+498 silly mapToRegistry registry https://registry.npmjs.org/
+499 silly mapToRegistry uri https://registry.npmjs.org/ms
+500 verbose addNameVersion registry:https://registry.npmjs.org/ms not in flight; fetching
+501 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics/package.json
+502 verbose request uri https://registry.npmjs.org/ms
+503 verbose request no auth needed
+504 info attempt registry request try #1 at 5:35:59 PM
+505 verbose etag "BF31W6MKP19K9GXAB8E7PBEQ9"
+506 http request GET https://registry.npmjs.org/ms
+507 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics/package.json
+508 silly install resolved []
+509 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+510 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+511 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/package.json
+512 info linkStuff hoist-non-react-statics@1.0.3
+513 silly linkStuff hoist-non-react-statics@1.0.3 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+514 info preinstall subscribe-ui-event@0.2.10
+515 verbose linkBins hoist-non-react-statics@1.0.3
+516 verbose linkMans hoist-non-react-statics@1.0.3
+517 verbose rebuildBundles hoist-non-react-statics@1.0.3
+518 info install hoist-non-react-statics@1.0.3
+519 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/package.json
+520 info postinstall hoist-non-react-statics@1.0.3
+521 verbose unlock done using /Users/mpletch/.npm/_locks/hoist-non-react-statics-d015a8b2a88d4193.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/hoist-non-react-statics
+522 silly prepareForInstallMany adding eventemitter3@^1.1.0 from subscribe-ui-event dependencies
+523 silly prepareForInstallMany adding lodash.throttle@^3.0.3 from subscribe-ui-event dependencies
+524 silly prepareForInstallMany adding raf@^3.0.0 from subscribe-ui-event dependencies
+525 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/package.json
+526 silly cache add args [ 'eventemitter3@^1.1.0', null ]
+527 verbose cache add spec eventemitter3@^1.1.0
+528 silly cache add args [ 'lodash.throttle@^3.0.3', null ]
+529 verbose cache add spec lodash.throttle@^3.0.3
+530 silly cache add parsed spec { raw: 'eventemitter3@^1.1.0',
+530 silly cache add   scope: null,
+530 silly cache add   name: 'eventemitter3',
+530 silly cache add   rawSpec: '^1.1.0',
+530 silly cache add   spec: '>=1.1.0 <2.0.0',
+530 silly cache add   type: 'range' }
+531 silly addNamed eventemitter3@>=1.1.0 <2.0.0
+532 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for eventemitter3
+533 silly addNameRange { name: 'eventemitter3',
+533 silly addNameRange   range: '>=1.1.0 <2.0.0',
+533 silly addNameRange   hasData: false }
+534 silly mapToRegistry name eventemitter3
+535 silly mapToRegistry using default registry
+536 silly mapToRegistry registry https://registry.npmjs.org/
+537 silly mapToRegistry uri https://registry.npmjs.org/eventemitter3
+538 verbose addNameRange registry:https://registry.npmjs.org/eventemitter3 not in flight; fetching
+539 silly cache add parsed spec { raw: 'lodash.throttle@^3.0.3',
+539 silly cache add   scope: null,
+539 silly cache add   name: 'lodash.throttle',
+539 silly cache add   rawSpec: '^3.0.3',
+539 silly cache add   spec: '>=3.0.3 <4.0.0',
+539 silly cache add   type: 'range' }
+540 silly addNamed lodash.throttle@>=3.0.3 <4.0.0
+541 verbose addNamed ">=3.0.3 <4.0.0" is a valid semver range for lodash.throttle
+542 silly addNameRange { name: 'lodash.throttle',
+542 silly addNameRange   range: '>=3.0.3 <4.0.0',
+542 silly addNameRange   hasData: false }
+543 silly mapToRegistry name lodash.throttle
+544 silly mapToRegistry using default registry
+545 silly mapToRegistry registry https://registry.npmjs.org/
+546 silly mapToRegistry uri https://registry.npmjs.org/lodash.throttle
+547 verbose addNameRange registry:https://registry.npmjs.org/lodash.throttle not in flight; fetching
+548 silly cache add args [ 'raf@^3.0.0', null ]
+549 verbose cache add spec raf@^3.0.0
+550 silly cache add parsed spec { raw: 'raf@^3.0.0',
+550 silly cache add   scope: null,
+550 silly cache add   name: 'raf',
+550 silly cache add   rawSpec: '^3.0.0',
+550 silly cache add   spec: '>=3.0.0 <4.0.0',
+550 silly cache add   type: 'range' }
+551 silly addNamed raf@>=3.0.0 <4.0.0
+552 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for raf
+553 silly addNameRange { name: 'raf', range: '>=3.0.0 <4.0.0', hasData: false }
+554 silly mapToRegistry name raf
+555 silly mapToRegistry using default registry
+556 silly mapToRegistry registry https://registry.npmjs.org/
+557 silly mapToRegistry uri https://registry.npmjs.org/raf
+558 verbose addNameRange registry:https://registry.npmjs.org/raf not in flight; fetching
+559 verbose request uri https://registry.npmjs.org/eventemitter3
+560 verbose request no auth needed
+561 info attempt registry request try #1 at 5:35:59 PM
+562 verbose etag "CY3X87ZM8DTAO4EGU81JUIWCU"
+563 http request GET https://registry.npmjs.org/eventemitter3
+564 verbose request uri https://registry.npmjs.org/lodash.throttle
+565 verbose request no auth needed
+566 info attempt registry request try #1 at 5:35:59 PM
+567 verbose etag "3V8HRV71Y5KUZGCC5V14TYBXP"
+568 http request GET https://registry.npmjs.org/lodash.throttle
+569 verbose request uri https://registry.npmjs.org/raf
+570 verbose request no auth needed
+571 info attempt registry request try #1 at 5:35:59 PM
+572 verbose etag "3YMO3FEW2ECPFYJ1HVVVZE15I"
+573 http request GET https://registry.npmjs.org/raf
+574 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/package.json
+575 info preinstall promise@7.1.1
+576 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/package.json
+577 silly prepareForInstallMany adding asap@~2.0.3 from promise dependencies
+578 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/package.json
+579 silly cache add args [ 'asap@~2.0.3', null ]
+580 verbose cache add spec asap@~2.0.3
+581 silly cache add parsed spec { raw: 'asap@~2.0.3',
+581 silly cache add   scope: null,
+581 silly cache add   name: 'asap',
+581 silly cache add   rawSpec: '~2.0.3',
+581 silly cache add   spec: '>=2.0.3 <2.1.0',
+581 silly cache add   type: 'range' }
+582 silly addNamed asap@>=2.0.3 <2.1.0
+583 verbose addNamed ">=2.0.3 <2.1.0" is a valid semver range for asap
+584 silly addNameRange { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: false }
+585 silly mapToRegistry name asap
+586 silly mapToRegistry using default registry
+587 silly mapToRegistry registry https://registry.npmjs.org/
+588 silly mapToRegistry uri https://registry.npmjs.org/asap
+589 verbose addNameRange registry:https://registry.npmjs.org/asap not in flight; fetching
+590 verbose request uri https://registry.npmjs.org/asap
+591 verbose request no auth needed
+592 info attempt registry request try #1 at 5:36:00 PM
+593 verbose etag "80D1BRKY8O6X8VA8OEGM35MA9"
+594 http request GET https://registry.npmjs.org/asap
+595 http 304 https://registry.npmjs.org/ms
+596 silly get cb [ 304,
+596 silly get   { date: 'Thu, 14 Jan 2016 22:36:01 GMT',
+596 silly get     via: '1.1 varnish',
+596 silly get     'cache-control': 'max-age=300',
+596 silly get     etag: '"BF31W6MKP19K9GXAB8E7PBEQ9"',
+596 silly get     age: '171',
+596 silly get     connection: 'keep-alive',
+596 silly get     'x-served-by': 'cache-dfw1828-DFW',
+596 silly get     'x-cache': 'HIT',
+596 silly get     'x-cache-hits': '6',
+596 silly get     'x-timer': 'S1452810961.445037,VS0,VE0',
+596 silly get     vary: 'Accept' } ]
+597 verbose etag https://registry.npmjs.org/ms from cache
+598 verbose get saving ms to /Users/mpletch/.npm/registry.npmjs.org/ms/.cache.json
+599 http 304 https://registry.npmjs.org/eventemitter3
+600 silly get cb [ 304,
+600 silly get   { date: 'Thu, 14 Jan 2016 22:36:01 GMT',
+600 silly get     via: '1.1 varnish',
+600 silly get     'cache-control': 'max-age=300',
+600 silly get     etag: '"CY3X87ZM8DTAO4EGU81JUIWCU"',
+600 silly get     age: '96',
+600 silly get     connection: 'keep-alive',
+600 silly get     'x-served-by': 'cache-dfw1834-DFW',
+600 silly get     'x-cache': 'HIT',
+600 silly get     'x-cache-hits': '1',
+600 silly get     'x-timer': 'S1452810961.452282,VS0,VE0',
+600 silly get     vary: 'Accept' } ]
+601 verbose etag https://registry.npmjs.org/eventemitter3 from cache
+602 verbose get saving eventemitter3 to /Users/mpletch/.npm/registry.npmjs.org/eventemitter3/.cache.json
+603 silly cache afterAdd ms@0.7.1
+604 verbose afterAdd /Users/mpletch/.npm/ms/0.7.1/package/package.json not in flight; writing
+605 silly addNameRange number 2 { name: 'eventemitter3', range: '>=1.1.0 <2.0.0', hasData: true }
+606 silly addNameRange versions [ 'eventemitter3',
+606 silly addNameRange   [ '0.0.0',
+606 silly addNameRange     '0.0.1',
+606 silly addNameRange     '0.1.0',
+606 silly addNameRange     '0.1.1',
+606 silly addNameRange     '0.1.2',
+606 silly addNameRange     '0.1.3',
+606 silly addNameRange     '0.1.4',
+606 silly addNameRange     '0.1.5',
+606 silly addNameRange     '0.1.6',
+606 silly addNameRange     '1.0.0',
+606 silly addNameRange     '1.0.1',
+606 silly addNameRange     '1.0.2',
+606 silly addNameRange     '1.0.3',
+606 silly addNameRange     '1.1.0',
+606 silly addNameRange     '1.1.1' ] ]
+607 silly addNamed eventemitter3@1.1.1
+608 verbose addNamed "1.1.1" is a plain semver version for eventemitter3
+609 verbose afterAdd /Users/mpletch/.npm/ms/0.7.1/package/package.json written
+610 silly install resolved [ { name: 'ms',
+610 silly install resolved     version: '0.7.1',
+610 silly install resolved     description: 'Tiny ms conversion utility',
+610 silly install resolved     repository: { type: 'git', url: 'git://github.com/guille/ms.js.git' },
+610 silly install resolved     main: './index',
+610 silly install resolved     devDependencies: { mocha: '*', 'expect.js': '*', serve: '*' },
+610 silly install resolved     component: { scripts: [Object] },
+610 silly install resolved     gitHead: '713dcf26d9e6fd9dbc95affe7eff9783b7f1b909',
+610 silly install resolved     bugs: { url: 'https://github.com/guille/ms.js/issues' },
+610 silly install resolved     homepage: 'https://github.com/guille/ms.js',
+610 silly install resolved     _id: 'ms@0.7.1',
+610 silly install resolved     scripts: {},
+610 silly install resolved     _shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+610 silly install resolved     _from: 'ms@0.7.1',
+610 silly install resolved     _npmVersion: '2.7.5',
+610 silly install resolved     _nodeVersion: '0.12.2',
+610 silly install resolved     _npmUser: { name: 'rauchg', email: 'rauchg@gmail.com' },
+610 silly install resolved     maintainers: [ [Object] ],
+610 silly install resolved     dist:
+610 silly install resolved      { shasum: '9cd13c03adbff25b65effde7ce864ee952017098',
+610 silly install resolved        tarball: 'http://registry.npmjs.org/ms/-/ms-0.7.1.tgz' },
+610 silly install resolved     directories: {},
+610 silly install resolved     _resolved: 'https://registry.npmjs.org/ms/-/ms-0.7.1.tgz',
+610 silly install resolved     readme: 'ERROR: No README data found!' } ]
+611 info install ms@0.7.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+612 info installOne ms@0.7.1
+613 verbose installOne of ms to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug not in flight; installing
+614 verbose lock using /Users/mpletch/.npm/_locks/ms-e4f43833d5982f60.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+615 silly cache afterAdd eventemitter3@1.1.1
+616 verbose afterAdd /Users/mpletch/.npm/eventemitter3/1.1.1/package/package.json not in flight; writing
+617 silly install write writing ms 0.7.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+618 verbose unbuild node_modules/react-i13n/node_modules/debug/node_modules/ms
+619 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+620 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+621 verbose afterAdd /Users/mpletch/.npm/eventemitter3/1.1.1/package/package.json written
+622 verbose tar unpack /Users/mpletch/.npm/ms/0.7.1/package.tgz
+623 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+624 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms is being purged
+625 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+626 silly gunzTarPerm modes [ '755', '644' ]
+627 silly gunzTarPerm extractEntry package.json
+628 silly gunzTarPerm extractEntry .npmignore
+629 silly gunzTarPerm extractEntry README.md
+630 silly gunzTarPerm extractEntry LICENSE
+631 silly gunzTarPerm extractEntry index.js
+632 silly gunzTarPerm extractEntry History.md
+633 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms/package.json
+634 http 304 https://registry.npmjs.org/raf
+635 silly get cb [ 304,
+635 silly get   { date: 'Thu, 14 Jan 2016 22:36:01 GMT',
+635 silly get     via: '1.1 varnish',
+635 silly get     'cache-control': 'max-age=300',
+635 silly get     etag: '"3YMO3FEW2ECPFYJ1HVVVZE15I"',
+635 silly get     age: '10',
+635 silly get     connection: 'keep-alive',
+635 silly get     'x-served-by': 'cache-dfw1823-DFW',
+635 silly get     'x-cache': 'HIT',
+635 silly get     'x-cache-hits': '1',
+635 silly get     'x-timer': 'S1452810961.461723,VS0,VE0',
+635 silly get     vary: 'Accept' } ]
+636 verbose etag https://registry.npmjs.org/raf from cache
+637 verbose get saving raf to /Users/mpletch/.npm/registry.npmjs.org/raf/.cache.json
+638 info preinstall ms@0.7.1
+639 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms/package.json
+640 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms/package.json
+641 silly addNameRange number 2 { name: 'raf', range: '>=3.0.0 <4.0.0', hasData: true }
+642 silly addNameRange versions [ 'raf',
+642 silly addNameRange   [ '0.0.0',
+642 silly addNameRange     '0.0.1',
+642 silly addNameRange     '0.0.2',
+642 silly addNameRange     '0.0.3',
+642 silly addNameRange     '0.1.0',
+642 silly addNameRange     '0.1.1',
+642 silly addNameRange     '0.1.2',
+642 silly addNameRange     '0.1.3',
+642 silly addNameRange     '0.2.0',
+642 silly addNameRange     '1.0.0',
+642 silly addNameRange     '1.0.1',
+642 silly addNameRange     '2.0.0',
+642 silly addNameRange     '2.0.1',
+642 silly addNameRange     '2.0.2',
+642 silly addNameRange     '2.0.3',
+642 silly addNameRange     '2.0.4',
+642 silly addNameRange     '3.0.0',
+642 silly addNameRange     '3.1.0' ] ]
+643 silly addNamed raf@3.1.0
+644 verbose addNamed "3.1.0" is a plain semver version for raf
+645 silly install resolved []
+646 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+647 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+648 silly cache afterAdd raf@3.1.0
+649 verbose afterAdd /Users/mpletch/.npm/raf/3.1.0/package/package.json not in flight; writing
+650 info linkStuff ms@0.7.1
+651 silly linkStuff ms@0.7.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules as its parent node_modules
+652 verbose afterAdd /Users/mpletch/.npm/raf/3.1.0/package/package.json written
+653 verbose linkBins ms@0.7.1
+654 verbose linkMans ms@0.7.1
+655 verbose rebuildBundles ms@0.7.1
+656 info install ms@0.7.1
+657 info postinstall ms@0.7.1
+658 verbose unlock done using /Users/mpletch/.npm/_locks/ms-e4f43833d5982f60.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug/node_modules/ms
+659 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+660 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+661 info linkStuff debug@2.2.0
+662 silly linkStuff debug@2.2.0 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+663 verbose linkBins debug@2.2.0
+664 verbose linkMans debug@2.2.0
+665 verbose rebuildBundles debug@2.2.0
+666 verbose rebuildBundles [ 'ms' ]
+667 info install debug@2.2.0
+668 info postinstall debug@2.2.0
+669 verbose unlock done using /Users/mpletch/.npm/_locks/debug-4b4ff242b5e65ff0.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/debug
+670 http 304 https://registry.npmjs.org/asap
+671 silly get cb [ 304,
+671 silly get   { date: 'Thu, 14 Jan 2016 22:36:01 GMT',
+671 silly get     via: '1.1 varnish',
+671 silly get     'cache-control': 'max-age=300',
+671 silly get     etag: '"80D1BRKY8O6X8VA8OEGM35MA9"',
+671 silly get     age: '144',
+671 silly get     connection: 'keep-alive',
+671 silly get     'x-served-by': 'cache-dfw1827-DFW',
+671 silly get     'x-cache': 'HIT',
+671 silly get     'x-cache-hits': '3',
+671 silly get     'x-timer': 'S1452810961.512747,VS0,VE0',
+671 silly get     vary: 'Accept' } ]
+672 verbose etag https://registry.npmjs.org/asap from cache
+673 verbose get saving asap to /Users/mpletch/.npm/registry.npmjs.org/asap/.cache.json
+674 silly addNameRange number 2 { name: 'asap', range: '>=2.0.3 <2.1.0', hasData: true }
+675 silly addNameRange versions [ 'asap',
+675 silly addNameRange   [ '0.0.0', '1.0.0', '2.0.0', '2.0.1', '2.0.2', '2.0.3' ] ]
+676 silly addNamed asap@2.0.3
+677 verbose addNamed "2.0.3" is a plain semver version for asap
+678 silly cache afterAdd asap@2.0.3
+679 verbose afterAdd /Users/mpletch/.npm/asap/2.0.3/package/package.json not in flight; writing
+680 verbose afterAdd /Users/mpletch/.npm/asap/2.0.3/package/package.json written
+681 silly install resolved [ { name: 'asap',
+681 silly install resolved     version: '2.0.3',
+681 silly install resolved     description: 'High-priority task queue for Node.js and browsers',
+681 silly install resolved     keywords: [ 'event', 'task', 'queue' ],
+681 silly install resolved     license:
+681 silly install resolved      { type: 'MIT',
+681 silly install resolved        url: 'https://github.com/kriskowal/asap/raw/master/LICENSE.md' },
+681 silly install resolved     repository:
+681 silly install resolved      { type: 'git',
+681 silly install resolved        url: 'git+https://github.com/kriskowal/asap.git' },
+681 silly install resolved     main: './asap.js',
+681 silly install resolved     browser:
+681 silly install resolved      { './asap.js': './browser-asap.js',
+681 silly install resolved        './raw.js': './browser-raw.js',
+681 silly install resolved        './test/domain.js': './test/browser-domain.js' },
+681 silly install resolved     files: [ 'raw.js', 'asap.js', 'browser-raw.js', 'browser-asap.js' ],
+681 silly install resolved     scripts:
+681 silly install resolved      { test: 'npm run lint && npm run test-node',
+681 silly install resolved        'test-travis': 'npm run lint && npm run test-node && npm run test-saucelabs && npm run test-saucelabs-worker',
+681 silly install resolved        'test-node': 'node test/asap-test.js',
+681 silly install resolved        'test-publish': 'node scripts/publish-bundle.js test/asap-test.js | pbcopy',
+681 silly install resolved        'test-browser': 'node scripts/publish-bundle.js test/asap-test.js | xargs opener',
+681 silly install resolved        'test-saucelabs': 'node scripts/saucelabs.js test/asap-test.js scripts/saucelabs-spot-configurations.json',
+681 silly install resolved        'test-saucelabs-all': 'node scripts/saucelabs.js test/asap-test.js scripts/saucelabs-all-configurations.json',
+681 silly install resolved        'test-saucelabs-worker': 'node scripts/saucelabs-worker-test.js scripts/saucelabs-spot-configurations.json',
+681 silly install resolved        'test-saucelabs-worker-all': 'node scripts/saucelabs-worker-test.js scripts/saucelabs-all-configurations.json',
+681 silly install resolved        lint: 'jshint raw.js asap.js browser-raw.js browser-asap.js $(find scripts -name \'*.js\' | grep -v gauntlet)' },
+681 silly install resolved     devDependencies:
+681 silly install resolved      { events: '^1.0.1',
+681 silly install resolved        jshint: '^2.5.1',
+681 silly install resolved        knox: '^0.8.10',
+681 silly install resolved        mr: '^2.0.5',
+681 silly install resolved        opener: '^1.3.0',
+681 silly install resolved        q: '^2.0.3',
+681 silly install resolved        'q-io': '^2.0.3',
+681 silly install resolved        saucelabs: '^0.1.1',
+681 silly install resolved        wd: '^0.2.21',
+681 silly install resolved        'weak-map': '^1.0.5' },
+681 silly install resolved     gitHead: 'ccbf94d4e4a0c3afc2df13331044020a46a74ab6',
+681 silly install resolved     bugs: { url: 'https://github.com/kriskowal/asap/issues' },
+681 silly install resolved     homepage: 'https://github.com/kriskowal/asap#readme',
+681 silly install resolved     _id: 'asap@2.0.3',
+681 silly install resolved     _shasum: '1fc1d1564ee11620dfca6d67029850913f9f4679',
+681 silly install resolved     _from: 'asap@>=2.0.3 <2.1.0',
+681 silly install resolved     _npmVersion: '2.8.3',
+681 silly install resolved     _nodeVersion: '1.8.1',
+681 silly install resolved     _npmUser: { name: 'kriskowal', email: 'kris.kowal@cixar.com' },
+681 silly install resolved     maintainers: [ [Object], [Object] ],
+681 silly install resolved     dist:
+681 silly install resolved      { shasum: '1fc1d1564ee11620dfca6d67029850913f9f4679',
+681 silly install resolved        tarball: 'http://registry.npmjs.org/asap/-/asap-2.0.3.tgz' },
+681 silly install resolved     directories: {},
+681 silly install resolved     _resolved: 'https://registry.npmjs.org/asap/-/asap-2.0.3.tgz',
+681 silly install resolved     readme: 'ERROR: No README data found!' } ]
+682 info install asap@2.0.3 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+683 info installOne asap@2.0.3
+684 verbose installOne of asap to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise not in flight; installing
+685 verbose lock using /Users/mpletch/.npm/_locks/asap-5580f1cb97ea937a.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+686 silly install write writing asap 2.0.3 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+687 verbose unbuild node_modules/react-i13n/node_modules/promise/node_modules/asap
+688 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+689 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+690 verbose tar unpack /Users/mpletch/.npm/asap/2.0.3/package.tgz
+691 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+692 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap is being purged
+693 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+694 silly gunzTarPerm modes [ '755', '644' ]
+695 silly gunzTarPerm extractEntry package.json
+696 silly gunzTarPerm extractEntry README.md
+697 silly gunzTarPerm extractEntry asap.js
+698 silly gunzTarPerm extractEntry browser-asap.js
+699 silly gunzTarPerm extractEntry browser-raw.js
+700 silly gunzTarPerm extractEntry raw.js
+701 silly gunzTarPerm extractEntry LICENSE.md
+702 silly gunzTarPerm extractEntry CHANGES.md
+703 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap/package.json
+704 info preinstall asap@2.0.3
+705 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap/package.json
+706 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap/package.json
+707 silly install resolved []
+708 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+709 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+710 info linkStuff asap@2.0.3
+711 silly linkStuff asap@2.0.3 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules as its parent node_modules
+712 verbose linkBins asap@2.0.3
+713 verbose linkMans asap@2.0.3
+714 verbose rebuildBundles asap@2.0.3
+715 info install asap@2.0.3
+716 info postinstall asap@2.0.3
+717 verbose unlock done using /Users/mpletch/.npm/_locks/asap-5580f1cb97ea937a.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise/node_modules/asap
+718 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+719 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+720 info linkStuff promise@7.1.1
+721 silly linkStuff promise@7.1.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+722 verbose linkBins promise@7.1.1
+723 verbose linkMans promise@7.1.1
+724 verbose rebuildBundles promise@7.1.1
+725 verbose rebuildBundles [ 'asap' ]
+726 info install promise@7.1.1
+727 info postinstall promise@7.1.1
+728 verbose unlock done using /Users/mpletch/.npm/_locks/promise-8518ce37e091665d.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/promise
+729 http 304 https://registry.npmjs.org/lodash.throttle
+730 silly get cb [ 304,
+730 silly get   { date: 'Thu, 14 Jan 2016 22:36:01 GMT',
+730 silly get     via: '1.1 varnish',
+730 silly get     'cache-control': 'max-age=300',
+730 silly get     etag: '"3V8HRV71Y5KUZGCC5V14TYBXP"',
+730 silly get     age: '0',
+730 silly get     connection: 'keep-alive',
+730 silly get     'x-served-by': 'cache-dfw1832-DFW',
+730 silly get     'x-cache': 'HIT',
+730 silly get     'x-cache-hits': '1',
+730 silly get     'x-timer': 'S1452810961.524488,VS0,VE188',
+730 silly get     vary: 'Accept' } ]
+731 verbose etag https://registry.npmjs.org/lodash.throttle from cache
+732 verbose get saving lodash.throttle to /Users/mpletch/.npm/registry.npmjs.org/lodash.throttle/.cache.json
+733 silly addNameRange number 2 { name: 'lodash.throttle',
+733 silly addNameRange   range: '>=3.0.3 <4.0.0',
+733 silly addNameRange   hasData: true }
+734 silly addNameRange versions [ 'lodash.throttle',
+734 silly addNameRange   [ '2.0.0',
+734 silly addNameRange     '2.1.0',
+734 silly addNameRange     '2.2.0',
+734 silly addNameRange     '2.2.1',
+734 silly addNameRange     '2.3.0',
+734 silly addNameRange     '2.4.0',
+734 silly addNameRange     '2.4.1',
+734 silly addNameRange     '3.0.0',
+734 silly addNameRange     '3.0.1',
+734 silly addNameRange     '3.0.2',
+734 silly addNameRange     '3.0.3',
+734 silly addNameRange     '3.0.4',
+734 silly addNameRange     '4.0.0' ] ]
+735 silly addNamed lodash.throttle@3.0.4
+736 verbose addNamed "3.0.4" is a plain semver version for lodash.throttle
+737 silly cache afterAdd lodash.throttle@3.0.4
+738 verbose afterAdd /Users/mpletch/.npm/lodash.throttle/3.0.4/package/package.json not in flight; writing
+739 verbose afterAdd /Users/mpletch/.npm/lodash.throttle/3.0.4/package/package.json written
+740 silly install resolved [ { name: 'eventemitter3',
+740 silly install resolved     version: '1.1.1',
+740 silly install resolved     description: 'EventEmitter3 focuses on performance while maintaining a Node.js AND browser compatible interface.',
+740 silly install resolved     main: 'index.js',
+740 silly install resolved     scripts:
+740 silly install resolved      { 'test-browser': 'zuul --browser-name ${BROWSER_NAME} --browser-version ${BROWSER_VERSION} -- test.js',
+740 silly install resolved        'test-node': 'istanbul cover node_modules/.bin/_mocha --report lcovonly -- test.js',
+740 silly install resolved        coverage: 'istanbul cover ./node_modules/.bin/_mocha -- test.js',
+740 silly install resolved        sync: 'node versions.js',
+740 silly install resolved        test: 'mocha test.js' },
+740 silly install resolved     repository:
+740 silly install resolved      { type: 'git',
+740 silly install resolved        url: 'git://github.com/primus/eventemitter3.git' },
+740 silly install resolved     keywords:
+740 silly install resolved      [ 'EventEmitter',
+740 silly install resolved        'EventEmitter2',
+740 silly install resolved        'EventEmitter3',
+740 silly install resolved        'Events',
+740 silly install resolved        'addEventListener',
+740 silly install resolved        'addListener',
+740 silly install resolved        'emit',
+740 silly install resolved        'emits',
+740 silly install resolved        'emitter',
+740 silly install resolved        'event',
+740 silly install resolved        'once',
+740 silly install resolved        'pub/sub',
+740 silly install resolved        'publish',
+740 silly install resolved        'reactor',
+740 silly install resolved        'subscribe' ],
+740 silly install resolved     author: { name: 'Arnout Kazemier' },
+740 silly install resolved     license: 'MIT',
+740 silly install resolved     bugs: { url: 'https://github.com/primus/eventemitter3/issues' },
+740 silly install resolved     'pre-commit': 'sync, test',
+740 silly install resolved     devDependencies:
+740 silly install resolved      { assume: '1.2.x',
+740 silly install resolved        istanbul: '0.3.x',
+740 silly install resolved        mocha: '2.2.x',
+740 silly install resolved        'pre-commit': '1.0.x',
+740 silly install resolved        zuul: '3.0.x' },
+740 silly install resolved     gitHead: '91f571f40c918d71220747791c05ec33f3402a56',
+740 silly install resolved     homepage: 'https://github.com/primus/eventemitter3#readme',
+740 silly install resolved     _id: 'eventemitter3@1.1.1',
+740 silly install resolved     _shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+740 silly install resolved     _from: 'eventemitter3@>=1.1.0 <2.0.0',
+740 silly install resolved     _npmVersion: '2.9.1',
+740 silly install resolved     _nodeVersion: '0.12.3',
+740 silly install resolved     _npmUser: { name: '3rdeden', email: 'npm@3rd-Eden.com' },
+740 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+740 silly install resolved     dist:
+740 silly install resolved      { shasum: '47786bdaa087caf7b1b75e73abc5c7d540158cd0',
+740 silly install resolved        tarball: 'http://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz' },
+740 silly install resolved     directories: {},
+740 silly install resolved     _resolved: 'https://registry.npmjs.org/eventemitter3/-/eventemitter3-1.1.1.tgz',
+740 silly install resolved     readme: 'ERROR: No README data found!' },
+740 silly install resolved   { name: 'raf',
+740 silly install resolved     version: '3.1.0',
+740 silly install resolved     description: 'requestAnimationFrame polyfill for node and the browser',
+740 silly install resolved     main: 'index.js',
+740 silly install resolved     scripts:
+740 silly install resolved      { testling: 'browserify test.js | testling',
+740 silly install resolved        test: 'node test.js' },
+740 silly install resolved     repository: { type: 'git', url: 'git://github.com/chrisdickinson/raf.git' },
+740 silly install resolved     keywords: [ 'requestAnimationFrame', 'polyfill' ],
+740 silly install resolved     author: { name: 'Chris Dickinson', email: 'chris@neversaw.us' },
+740 silly install resolved     contributors: [ [Object] ],
+740 silly install resolved     license: 'MIT',
+740 silly install resolved     devDependencies: { testling: '~1.6.1', browserify: '~4.1.2', tape: '^4.0.0' },
+740 silly install resolved     dependencies: { 'performance-now': '~0.2.0' },
+740 silly install resolved     testling: { files: 'test.js', browsers: [Object] },
+740 silly install resolved     gitHead: 'c9c566a78e71a50ae4ffbcd93cdcfecb513015dd',
+740 silly install resolved     bugs: { url: 'https://github.com/chrisdickinson/raf/issues' },
+740 silly install resolved     homepage: 'https://github.com/chrisdickinson/raf#readme',
+740 silly install resolved     _id: 'raf@3.1.0',
+740 silly install resolved     _shasum: '5d84bf81b57f979f8c492be08378c538bb4eecfc',
+740 silly install resolved     _from: 'raf@>=3.0.0 <4.0.0',
+740 silly install resolved     _npmVersion: '3.1.0',
+740 silly install resolved     _nodeVersion: '2.0.1',
+740 silly install resolved     _npmUser: { name: 'cmtegner', email: 'christian.tegner@gmail.com' },
+740 silly install resolved     maintainers: [ [Object], [Object] ],
+740 silly install resolved     dist:
+740 silly install resolved      { shasum: '5d84bf81b57f979f8c492be08378c538bb4eecfc',
+740 silly install resolved        tarball: 'http://registry.npmjs.org/raf/-/raf-3.1.0.tgz' },
+740 silly install resolved     directories: {},
+740 silly install resolved     _resolved: 'https://registry.npmjs.org/raf/-/raf-3.1.0.tgz',
+740 silly install resolved     readme: 'ERROR: No README data found!' },
+740 silly install resolved   { name: 'lodash.throttle',
+740 silly install resolved     version: '3.0.4',
+740 silly install resolved     description: 'The modern build of lodash’s `_.throttle` as a module.',
+740 silly install resolved     homepage: 'https://lodash.com/',
+740 silly install resolved     icon: 'https://lodash.com/icon.svg',
+740 silly install resolved     license: 'MIT',
+740 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+740 silly install resolved     author:
+740 silly install resolved      { name: 'John-David Dalton',
+740 silly install resolved        email: 'john.david.dalton@gmail.com',
+740 silly install resolved        url: 'http://allyoucanleet.com/' },
+740 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+740 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+740 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+740 silly install resolved     dependencies: { 'lodash.debounce': '^3.0.0' },
+740 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+740 silly install resolved     _id: 'lodash.throttle@3.0.4',
+740 silly install resolved     _shasum: 'bc4f471fb328e4d6fdc6df2b3d3caf113f0f89c9',
+740 silly install resolved     _from: 'lodash.throttle@>=3.0.3 <4.0.0',
+740 silly install resolved     _npmVersion: '2.12.0',
+740 silly install resolved     _nodeVersion: '0.12.5',
+740 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+740 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+740 silly install resolved     dist:
+740 silly install resolved      { shasum: 'bc4f471fb328e4d6fdc6df2b3d3caf113f0f89c9',
+740 silly install resolved        tarball: 'http://registry.npmjs.org/lodash.throttle/-/lodash.throttle-3.0.4.tgz' },
+740 silly install resolved     directories: {},
+740 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.throttle/-/lodash.throttle-3.0.4.tgz',
+740 silly install resolved     readme: 'ERROR: No README data found!' } ]
+741 info install eventemitter3@1.1.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+742 info install raf@3.1.0 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+743 info install lodash.throttle@3.0.4 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+744 info installOne eventemitter3@1.1.1
+745 verbose installOne of eventemitter3 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event not in flight; installing
+746 info installOne raf@3.1.0
+747 verbose installOne of raf to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event not in flight; installing
+748 info installOne lodash.throttle@3.0.4
+749 verbose installOne of lodash.throttle to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event not in flight; installing
+750 verbose lock using /Users/mpletch/.npm/_locks/eventemitter3-797a54a75fa8c421.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+751 silly install write writing eventemitter3 1.1.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+752 verbose lock using /Users/mpletch/.npm/_locks/raf-e31bf11d59e51301.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+753 silly install write writing raf 3.1.0 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+754 verbose lock using /Users/mpletch/.npm/_locks/lodash-throttle-c85b652c1dbbd7f9.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+755 silly install write writing lodash.throttle 3.0.4 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+756 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+757 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+758 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3 is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+759 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+760 verbose tar unpack /Users/mpletch/.npm/eventemitter3/1.1.1/package.tgz
+761 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+762 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3 is being purged
+763 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+764 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+765 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+766 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+767 silly gunzTarPerm modes [ '755', '644' ]
+768 verbose tar unpack /Users/mpletch/.npm/raf/3.1.0/package.tgz
+769 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+770 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf is being purged
+771 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+772 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+773 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+774 silly gunzTarPerm modes [ '755', '644' ]
+775 verbose tar unpack /Users/mpletch/.npm/lodash.throttle/3.0.4/package.tgz
+776 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+777 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle is being purged
+778 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+779 silly gunzTarPerm modes [ '755', '644' ]
+780 silly gunzTarPerm extractEntry package.json
+781 silly gunzTarPerm extractEntry package.json
+782 silly gunzTarPerm extractEntry package.json
+783 silly gunzTarPerm extractEntry README.md
+784 silly gunzTarPerm extractEntry LICENSE
+785 silly gunzTarPerm extractEntry .npmignore
+786 silly gunzTarPerm extractEntry README.md
+787 silly gunzTarPerm extractEntry README.md
+788 silly gunzTarPerm extractEntry LICENSE
+789 silly gunzTarPerm extractEntry index.js
+790 silly gunzTarPerm extractEntry index.js
+791 silly gunzTarPerm extractEntry test.js
+792 silly gunzTarPerm extractEntry index.js
+793 silly gunzTarPerm extractEntry window.js
+794 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/package.json
+795 info preinstall lodash.throttle@3.0.4
+796 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/package.json
+797 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/package.json
+798 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3/package.json
+799 silly prepareForInstallMany adding lodash.debounce@^3.0.0 from lodash.throttle dependencies
+800 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/package.json
+801 info preinstall eventemitter3@1.1.1
+802 info preinstall raf@3.1.0
+803 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3/package.json
+804 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/package.json
+805 silly cache add args [ 'lodash.debounce@^3.0.0', null ]
+806 verbose cache add spec lodash.debounce@^3.0.0
+807 silly cache add parsed spec { raw: 'lodash.debounce@^3.0.0',
+807 silly cache add   scope: null,
+807 silly cache add   name: 'lodash.debounce',
+807 silly cache add   rawSpec: '^3.0.0',
+807 silly cache add   spec: '>=3.0.0 <4.0.0',
+807 silly cache add   type: 'range' }
+808 silly addNamed lodash.debounce@>=3.0.0 <4.0.0
+809 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash.debounce
+810 silly addNameRange { name: 'lodash.debounce',
+810 silly addNameRange   range: '>=3.0.0 <4.0.0',
+810 silly addNameRange   hasData: false }
+811 silly mapToRegistry name lodash.debounce
+812 silly mapToRegistry using default registry
+813 silly mapToRegistry registry https://registry.npmjs.org/
+814 silly mapToRegistry uri https://registry.npmjs.org/lodash.debounce
+815 verbose addNameRange registry:https://registry.npmjs.org/lodash.debounce not in flight; fetching
+816 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3/package.json
+817 silly prepareForInstallMany adding performance-now@~0.2.0 from raf dependencies
+818 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/package.json
+819 verbose request uri https://registry.npmjs.org/lodash.debounce
+820 verbose request no auth needed
+821 info attempt registry request try #1 at 5:36:00 PM
+822 verbose etag "ECLR0FRIRVP8Y9P3FX35RLY5F"
+823 http request GET https://registry.npmjs.org/lodash.debounce
+824 silly install resolved []
+825 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+826 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+827 info linkStuff eventemitter3@1.1.1
+828 silly linkStuff eventemitter3@1.1.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules as its parent node_modules
+829 silly cache add args [ 'performance-now@~0.2.0', null ]
+830 verbose cache add spec performance-now@~0.2.0
+831 silly cache add parsed spec { raw: 'performance-now@~0.2.0',
+831 silly cache add   scope: null,
+831 silly cache add   name: 'performance-now',
+831 silly cache add   rawSpec: '~0.2.0',
+831 silly cache add   spec: '>=0.2.0 <0.3.0',
+831 silly cache add   type: 'range' }
+832 silly addNamed performance-now@>=0.2.0 <0.3.0
+833 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for performance-now
+834 silly addNameRange { name: 'performance-now',
+834 silly addNameRange   range: '>=0.2.0 <0.3.0',
+834 silly addNameRange   hasData: false }
+835 silly mapToRegistry name performance-now
+836 silly mapToRegistry using default registry
+837 silly mapToRegistry registry https://registry.npmjs.org/
+838 silly mapToRegistry uri https://registry.npmjs.org/performance-now
+839 verbose addNameRange registry:https://registry.npmjs.org/performance-now not in flight; fetching
+840 verbose linkBins eventemitter3@1.1.1
+841 verbose linkMans eventemitter3@1.1.1
+842 verbose rebuildBundles eventemitter3@1.1.1
+843 info install eventemitter3@1.1.1
+844 verbose request uri https://registry.npmjs.org/performance-now
+845 verbose request no auth needed
+846 info attempt registry request try #1 at 5:36:00 PM
+847 verbose etag "A8Z8IK5S11Z5V4H0ZYQXIG2NE"
+848 http request GET https://registry.npmjs.org/performance-now
+849 info postinstall eventemitter3@1.1.1
+850 verbose unlock done using /Users/mpletch/.npm/_locks/eventemitter3-797a54a75fa8c421.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/eventemitter3
+851 http 304 https://registry.npmjs.org/lodash.debounce
+852 silly get cb [ 304,
+852 silly get   { date: 'Thu, 14 Jan 2016 22:36:02 GMT',
+852 silly get     via: '1.1 varnish',
+852 silly get     'cache-control': 'max-age=300',
+852 silly get     etag: '"ECLR0FRIRVP8Y9P3FX35RLY5F"',
+852 silly get     age: '15',
+852 silly get     connection: 'keep-alive',
+852 silly get     'x-served-by': 'cache-dfw1833-DFW',
+852 silly get     'x-cache': 'HIT',
+852 silly get     'x-cache-hits': '1',
+852 silly get     'x-timer': 'S1452810962.172109,VS0,VE0',
+852 silly get     vary: 'Accept' } ]
+853 verbose etag https://registry.npmjs.org/lodash.debounce from cache
+854 verbose get saving lodash.debounce to /Users/mpletch/.npm/registry.npmjs.org/lodash.debounce/.cache.json
+855 silly addNameRange number 2 { name: 'lodash.debounce',
+855 silly addNameRange   range: '>=3.0.0 <4.0.0',
+855 silly addNameRange   hasData: true }
+856 silly addNameRange versions [ 'lodash.debounce',
+856 silly addNameRange   [ '2.0.0',
+856 silly addNameRange     '2.1.0',
+856 silly addNameRange     '2.2.0',
+856 silly addNameRange     '2.2.1',
+856 silly addNameRange     '2.3.0',
+856 silly addNameRange     '2.4.0',
+856 silly addNameRange     '2.4.1',
+856 silly addNameRange     '3.0.0',
+856 silly addNameRange     '3.0.1',
+856 silly addNameRange     '3.0.2',
+856 silly addNameRange     '3.0.3',
+856 silly addNameRange     '3.1.0',
+856 silly addNameRange     '3.1.1',
+856 silly addNameRange     '4.0.0' ] ]
+857 silly addNamed lodash.debounce@3.1.1
+858 verbose addNamed "3.1.1" is a plain semver version for lodash.debounce
+859 silly cache afterAdd lodash.debounce@3.1.1
+860 verbose afterAdd /Users/mpletch/.npm/lodash.debounce/3.1.1/package/package.json not in flight; writing
+861 verbose afterAdd /Users/mpletch/.npm/lodash.debounce/3.1.1/package/package.json written
+862 silly install resolved [ { name: 'lodash.debounce',
+862 silly install resolved     version: '3.1.1',
+862 silly install resolved     description: 'The modern build of lodash’s `_.debounce` as a module.',
+862 silly install resolved     homepage: 'https://lodash.com/',
+862 silly install resolved     icon: 'https://lodash.com/icon.svg',
+862 silly install resolved     license: 'MIT',
+862 silly install resolved     keywords: [ 'lodash', 'lodash-modularized', 'stdlib', 'util' ],
+862 silly install resolved     author:
+862 silly install resolved      { name: 'John-David Dalton',
+862 silly install resolved        email: 'john.david.dalton@gmail.com',
+862 silly install resolved        url: 'http://allyoucanleet.com/' },
+862 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+862 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+862 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+862 silly install resolved     dependencies: { 'lodash._getnative': '^3.0.0' },
+862 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+862 silly install resolved     _id: 'lodash.debounce@3.1.1',
+862 silly install resolved     _shasum: '812211c378a94cc29d5aa4e3346cf0bfce3a7df5',
+862 silly install resolved     _from: 'lodash.debounce@>=3.0.0 <4.0.0',
+862 silly install resolved     _npmVersion: '2.12.0',
+862 silly install resolved     _nodeVersion: '0.12.5',
+862 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+862 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+862 silly install resolved     dist:
+862 silly install resolved      { shasum: '812211c378a94cc29d5aa4e3346cf0bfce3a7df5',
+862 silly install resolved        tarball: 'http://registry.npmjs.org/lodash.debounce/-/lodash.debounce-3.1.1.tgz' },
+862 silly install resolved     directories: {},
+862 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-3.1.1.tgz',
+862 silly install resolved     readme: 'ERROR: No README data found!' } ]
+863 info install lodash.debounce@3.1.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+864 info installOne lodash.debounce@3.1.1
+865 verbose installOne of lodash.debounce to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle not in flight; installing
+866 verbose lock using /Users/mpletch/.npm/_locks/lodash-debounce-76d2c899516e9079.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+867 silly install write writing lodash.debounce 3.1.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+868 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+869 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+870 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+871 verbose tar unpack /Users/mpletch/.npm/lodash.debounce/3.1.1/package.tgz
+872 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+873 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce is being purged
+874 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+875 silly gunzTarPerm modes [ '755', '644' ]
+876 silly gunzTarPerm extractEntry package.json
+877 silly gunzTarPerm extractEntry README.md
+878 silly gunzTarPerm extractEntry LICENSE
+879 silly gunzTarPerm extractEntry index.js
+880 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/package.json
+881 info preinstall lodash.debounce@3.1.1
+882 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/package.json
+883 silly prepareForInstallMany adding lodash._getnative@^3.0.0 from lodash.debounce dependencies
+884 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/package.json
+885 silly cache add args [ 'lodash._getnative@^3.0.0', null ]
+886 verbose cache add spec lodash._getnative@^3.0.0
+887 silly cache add parsed spec { raw: 'lodash._getnative@^3.0.0',
+887 silly cache add   scope: null,
+887 silly cache add   name: 'lodash._getnative',
+887 silly cache add   rawSpec: '^3.0.0',
+887 silly cache add   spec: '>=3.0.0 <4.0.0',
+887 silly cache add   type: 'range' }
+888 silly addNamed lodash._getnative@>=3.0.0 <4.0.0
+889 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for lodash._getnative
+890 silly addNameRange { name: 'lodash._getnative',
+890 silly addNameRange   range: '>=3.0.0 <4.0.0',
+890 silly addNameRange   hasData: false }
+891 silly mapToRegistry name lodash._getnative
+892 silly mapToRegistry using default registry
+893 silly mapToRegistry registry https://registry.npmjs.org/
+894 silly mapToRegistry uri https://registry.npmjs.org/lodash._getnative
+895 verbose addNameRange registry:https://registry.npmjs.org/lodash._getnative not in flight; fetching
+896 verbose request uri https://registry.npmjs.org/lodash._getnative
+897 verbose request no auth needed
+898 info attempt registry request try #1 at 5:36:01 PM
+899 verbose etag "3SVNLKSR8B1QV2CE7Y4X2OE9J"
+900 http request GET https://registry.npmjs.org/lodash._getnative
+901 http 304 https://registry.npmjs.org/performance-now
+902 silly get cb [ 304,
+902 silly get   { date: 'Thu, 14 Jan 2016 22:36:02 GMT',
+902 silly get     via: '1.1 varnish',
+902 silly get     'cache-control': 'max-age=300',
+902 silly get     etag: '"A8Z8IK5S11Z5V4H0ZYQXIG2NE"',
+902 silly get     age: '10',
+902 silly get     connection: 'keep-alive',
+902 silly get     'x-served-by': 'cache-dfw1827-DFW',
+902 silly get     'x-cache': 'HIT',
+902 silly get     'x-cache-hits': '1',
+902 silly get     'x-timer': 'S1452810962.213937,VS0,VE0',
+902 silly get     vary: 'Accept' } ]
+903 verbose etag https://registry.npmjs.org/performance-now from cache
+904 verbose get saving performance-now to /Users/mpletch/.npm/registry.npmjs.org/performance-now/.cache.json
+905 silly addNameRange number 2 { name: 'performance-now',
+905 silly addNameRange   range: '>=0.2.0 <0.3.0',
+905 silly addNameRange   hasData: true }
+906 silly addNameRange versions [ 'performance-now',
+906 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.2.0' ] ]
+907 silly addNamed performance-now@0.2.0
+908 verbose addNamed "0.2.0" is a plain semver version for performance-now
+909 silly cache afterAdd performance-now@0.2.0
+910 verbose afterAdd /Users/mpletch/.npm/performance-now/0.2.0/package/package.json not in flight; writing
+911 verbose afterAdd /Users/mpletch/.npm/performance-now/0.2.0/package/package.json written
+912 silly install resolved [ { name: 'performance-now',
+912 silly install resolved     description: 'Implements performance.now (based on process.hrtime).',
+912 silly install resolved     keywords: [],
+912 silly install resolved     version: '0.2.0',
+912 silly install resolved     author: { name: 'Meryn Stol', email: 'merynstol@gmail.com' },
+912 silly install resolved     license: 'MIT',
+912 silly install resolved     homepage: 'https://github.com/meryn/performance-now',
+912 silly install resolved     bugs: { url: 'https://github.com/meryn/performance-now/issues' },
+912 silly install resolved     repository:
+912 silly install resolved      { type: 'git',
+912 silly install resolved        url: 'git://github.com/meryn/performance-now.git' },
+912 silly install resolved     private: false,
+912 silly install resolved     dependencies: {},
+912 silly install resolved     devDependencies: { 'coffee-script': '~1.7.1', mocha: '~1.21.0' },
+912 silly install resolved     optionalDependencies: {},
+912 silly install resolved     main: 'lib/performance-now.js',
+912 silly install resolved     scripts:
+912 silly install resolved      { prepublish: 'npm test',
+912 silly install resolved        pretest: 'make build',
+912 silly install resolved        test: 'make test' },
+912 silly install resolved     _id: 'performance-now@0.2.0',
+912 silly install resolved     dist:
+912 silly install resolved      { shasum: '33ef30c5c77d4ea21c5a53869d91b56d8f2555e5',
+912 silly install resolved        tarball: 'http://registry.npmjs.org/performance-now/-/performance-now-0.2.0.tgz' },
+912 silly install resolved     _from: 'performance-now@>=0.2.0 <0.3.0',
+912 silly install resolved     _npmVersion: '1.3.24',
+912 silly install resolved     _npmUser: { name: 'meryn', email: 'merynstol@gmail.com' },
+912 silly install resolved     maintainers: [ [Object] ],
+912 silly install resolved     directories: {},
+912 silly install resolved     _shasum: '33ef30c5c77d4ea21c5a53869d91b56d8f2555e5',
+912 silly install resolved     _resolved: 'https://registry.npmjs.org/performance-now/-/performance-now-0.2.0.tgz',
+912 silly install resolved     readme: 'ERROR: No README data found!' } ]
+913 info install performance-now@0.2.0 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+914 info installOne performance-now@0.2.0
+915 verbose installOne of performance-now to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf not in flight; installing
+916 verbose lock using /Users/mpletch/.npm/_locks/performance-now-b39070259b3063a8.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+917 silly install write writing performance-now 0.2.0 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+918 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+919 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+920 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+921 verbose tar unpack /Users/mpletch/.npm/performance-now/0.2.0/package.tgz
+922 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+923 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now is being purged
+924 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+925 silly gunzTarPerm modes [ '755', '644' ]
+926 silly gunzTarPerm extractEntry package.json
+927 silly gunzTarPerm extractEntry .npmignore
+928 silly gunzTarPerm extractEntry README.md
+929 silly gunzTarPerm extractEntry .tm_properties
+930 silly gunzTarPerm extractEntry .travis.yml
+931 silly gunzTarPerm extractEntry Makefile
+932 silly gunzTarPerm extractEntry lib/performance-now.js
+933 silly gunzTarPerm extractEntry license.txt
+934 silly gunzTarPerm extractEntry src/performance-now.coffee
+935 silly gunzTarPerm extractEntry test/mocha.opts
+936 silly gunzTarPerm extractEntry test/performance-now.coffee
+937 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now/package.json
+938 info preinstall performance-now@0.2.0
+939 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now/package.json
+940 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now/package.json
+941 silly install resolved []
+942 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+943 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+944 info linkStuff performance-now@0.2.0
+945 silly linkStuff performance-now@0.2.0 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules as its parent node_modules
+946 verbose linkBins performance-now@0.2.0
+947 verbose linkMans performance-now@0.2.0
+948 verbose rebuildBundles performance-now@0.2.0
+949 info install performance-now@0.2.0
+950 info postinstall performance-now@0.2.0
+951 verbose unlock done using /Users/mpletch/.npm/_locks/performance-now-b39070259b3063a8.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf/node_modules/performance-now
+952 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+953 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+954 info linkStuff raf@3.1.0
+955 silly linkStuff raf@3.1.0 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules as its parent node_modules
+956 verbose linkBins raf@3.1.0
+957 verbose linkMans raf@3.1.0
+958 verbose rebuildBundles raf@3.1.0
+959 verbose rebuildBundles [ 'performance-now' ]
+960 info install raf@3.1.0
+961 info postinstall raf@3.1.0
+962 verbose unlock done using /Users/mpletch/.npm/_locks/raf-e31bf11d59e51301.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/raf
+963 http 304 https://registry.npmjs.org/lodash._getnative
+964 silly get cb [ 304,
+964 silly get   { date: 'Thu, 14 Jan 2016 22:36:02 GMT',
+964 silly get     via: '1.1 varnish',
+964 silly get     'cache-control': 'max-age=300',
+964 silly get     etag: '"3SVNLKSR8B1QV2CE7Y4X2OE9J"',
+964 silly get     age: '155',
+964 silly get     connection: 'keep-alive',
+964 silly get     'x-served-by': 'cache-dfw1832-DFW',
+964 silly get     'x-cache': 'HIT',
+964 silly get     'x-cache-hits': '5',
+964 silly get     'x-timer': 'S1452810962.653482,VS0,VE0',
+964 silly get     vary: 'Accept' } ]
+965 verbose etag https://registry.npmjs.org/lodash._getnative from cache
+966 verbose get saving lodash._getnative to /Users/mpletch/.npm/registry.npmjs.org/lodash._getnative/.cache.json
+967 silly addNameRange number 2 { name: 'lodash._getnative',
+967 silly addNameRange   range: '>=3.0.0 <4.0.0',
+967 silly addNameRange   hasData: true }
+968 silly addNameRange versions [ 'lodash._getnative', [ '3.9.0', '3.9.1' ] ]
+969 silly addNamed lodash._getnative@3.9.1
+970 verbose addNamed "3.9.1" is a plain semver version for lodash._getnative
+971 silly cache afterAdd lodash._getnative@3.9.1
+972 verbose afterAdd /Users/mpletch/.npm/lodash._getnative/3.9.1/package/package.json not in flight; writing
+973 verbose afterAdd /Users/mpletch/.npm/lodash._getnative/3.9.1/package/package.json written
+974 silly install resolved [ { name: 'lodash._getnative',
+974 silly install resolved     version: '3.9.1',
+974 silly install resolved     description: 'The modern build of lodash’s internal `getNative` as a module.',
+974 silly install resolved     homepage: 'https://lodash.com/',
+974 silly install resolved     icon: 'https://lodash.com/icon.svg',
+974 silly install resolved     license: 'MIT',
+974 silly install resolved     author:
+974 silly install resolved      { name: 'John-David Dalton',
+974 silly install resolved        email: 'john.david.dalton@gmail.com',
+974 silly install resolved        url: 'http://allyoucanleet.com/' },
+974 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+974 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+974 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+974 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+974 silly install resolved     _id: 'lodash._getnative@3.9.1',
+974 silly install resolved     _shasum: '570bc7dede46d61cdcde687d65d3eecbaa3aaff5',
+974 silly install resolved     _from: 'lodash._getnative@>=3.0.0 <4.0.0',
+974 silly install resolved     _npmVersion: '2.12.0',
+974 silly install resolved     _nodeVersion: '0.12.5',
+974 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+974 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+974 silly install resolved     dist:
+974 silly install resolved      { shasum: '570bc7dede46d61cdcde687d65d3eecbaa3aaff5',
+974 silly install resolved        tarball: 'http://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz' },
+974 silly install resolved     directories: {},
+974 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash._getnative/-/lodash._getnative-3.9.1.tgz',
+974 silly install resolved     readme: 'ERROR: No README data found!' } ]
+975 info install lodash._getnative@3.9.1 into /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+976 info installOne lodash._getnative@3.9.1
+977 verbose installOne of lodash._getnative to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce not in flight; installing
+978 verbose lock using /Users/mpletch/.npm/_locks/lodash-getnative-1a844b2f1912c122.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+979 silly install write writing lodash._getnative 3.9.1 to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+980 verbose unbuild node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+981 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative is being purged from base /Users/mpletch/Sites/globe/metrics/ga
+982 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+983 verbose tar unpack /Users/mpletch/.npm/lodash._getnative/3.9.1/package.tgz
+984 verbose tar unpacking to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+985 silly gentlyRm /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative is being purged
+986 verbose gentlyRm don't care about contents; nuking /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+987 silly gunzTarPerm modes [ '755', '644' ]
+988 silly gunzTarPerm extractEntry package.json
+989 silly gunzTarPerm extractEntry README.md
+990 silly gunzTarPerm extractEntry LICENSE
+991 silly gunzTarPerm extractEntry index.js
+992 verbose write writing to /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative/package.json
+993 info preinstall lodash._getnative@3.9.1
+994 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative/package.json
+995 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative/package.json
+996 silly install resolved []
+997 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+998 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+999 info linkStuff lodash._getnative@3.9.1
+1000 silly linkStuff lodash._getnative@3.9.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules as its parent node_modules
+1001 verbose linkBins lodash._getnative@3.9.1
+1002 verbose linkMans lodash._getnative@3.9.1
+1003 verbose rebuildBundles lodash._getnative@3.9.1
+1004 info install lodash._getnative@3.9.1
+1005 info postinstall lodash._getnative@3.9.1
+1006 verbose unlock done using /Users/mpletch/.npm/_locks/lodash-getnative-1a844b2f1912c122.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce/node_modules/lodash._getnative
+1007 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+1008 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+1009 info linkStuff lodash.debounce@3.1.1
+1010 silly linkStuff lodash.debounce@3.1.1 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules as its parent node_modules
+1011 verbose linkBins lodash.debounce@3.1.1
+1012 verbose linkMans lodash.debounce@3.1.1
+1013 verbose rebuildBundles lodash.debounce@3.1.1
+1014 verbose rebuildBundles [ 'lodash._getnative' ]
+1015 info install lodash.debounce@3.1.1
+1016 info postinstall lodash.debounce@3.1.1
+1017 verbose unlock done using /Users/mpletch/.npm/_locks/lodash-debounce-76d2c899516e9079.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle/node_modules/lodash.debounce
+1018 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+1019 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+1020 info linkStuff lodash.throttle@3.0.4
+1021 silly linkStuff lodash.throttle@3.0.4 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules as its parent node_modules
+1022 verbose linkBins lodash.throttle@3.0.4
+1023 verbose linkMans lodash.throttle@3.0.4
+1024 verbose rebuildBundles lodash.throttle@3.0.4
+1025 verbose rebuildBundles [ 'lodash.debounce' ]
+1026 info install lodash.throttle@3.0.4
+1027 info postinstall lodash.throttle@3.0.4
+1028 verbose unlock done using /Users/mpletch/.npm/_locks/lodash-throttle-c85b652c1dbbd7f9.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event/node_modules/lodash.throttle
+1029 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+1030 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+1031 info linkStuff subscribe-ui-event@0.2.10
+1032 silly linkStuff subscribe-ui-event@0.2.10 has /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules as its parent node_modules
+1033 verbose linkBins subscribe-ui-event@0.2.10
+1034 verbose linkMans subscribe-ui-event@0.2.10
+1035 verbose rebuildBundles subscribe-ui-event@0.2.10
+1036 verbose rebuildBundles [ 'eventemitter3', 'lodash.throttle', 'raf' ]
+1037 info install subscribe-ui-event@0.2.10
+1038 info postinstall subscribe-ui-event@0.2.10
+1039 verbose unlock done using /Users/mpletch/.npm/_locks/subscribe-ui-event-1da397cfb3f29ef5.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/node_modules/subscribe-ui-event
+1040 verbose about to build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+1041 info build /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+1042 info linkStuff react-i13n@0.1.30
+1043 silly linkStuff react-i13n@0.1.30 has /Users/mpletch/Sites/globe/metrics/ga/node_modules as its parent node_modules
+1044 verbose linkBins react-i13n@0.1.30
+1045 verbose linkMans react-i13n@0.1.30
+1046 verbose rebuildBundles react-i13n@0.1.30
+1047 verbose rebuildBundles [ 'debug',
+1047 verbose rebuildBundles   'hoist-non-react-statics',
+1047 verbose rebuildBundles   'object-assign',
+1047 verbose rebuildBundles   'promise',
+1047 verbose rebuildBundles   'setimmediate',
+1047 verbose rebuildBundles   'subscribe-ui-event' ]
+1048 info install react-i13n@0.1.30
+1049 info postinstall react-i13n@0.1.30
+1050 verbose readDependencies loading dependencies from /Users/mpletch/Sites/globe/metrics/ga/package.json
+1051 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/autobind-decorator/package.json
+1052 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel/package.json
+1053 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel-preset-es2015/package.json
+1054 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babel-preset-react/package.json
+1055 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/babelify/package.json
+1056 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/browser-sync/package.json
+1057 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/browserify/package.json
+1058 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/connect-history-api-fallback/package.json
+1059 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp/package.json
+1060 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-autoprefixer/package.json
+1061 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-notify/package.json
+1062 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-rename/package.json
+1063 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-sass/package.json
+1064 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-uglify/package.json
+1065 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/gulp-util/package.json
+1066 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/history/package.json
+1067 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/install/package.json
+1068 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/jquery/package.json
+1069 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/re-base/package.json
+1070 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react/package.json
+1071 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-catalyst/package.json
+1072 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-dom/package.json
+1073 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n/package.json
+1074 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n-ga/package.json
+1075 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-mixin/package.json
+1076 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-router/package.json
+1077 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/vinyl-buffer/package.json
+1078 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/vinyl-source-stream/package.json
+1079 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/watchify/package.json
+1080 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/babel/package.json
+1081 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/babel-external-helpers/package.json
+1082 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/babel-node/package.json
+1083 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/browser-sync/package.json
+1084 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/browserify/package.json
+1085 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/gulp/package.json
+1086 verbose targetResolver reading package data from /Users/mpletch/Sites/globe/metrics/ga/node_modules/.bin/watchify/package.json
+1087 verbose already installed skipping react@<0.14.0 /Users/mpletch/Sites/globe/metrics/ga
+1088 silly install resolved []
+1089 verbose unlock done using /Users/mpletch/.npm/_locks/react-i13n-f08424dba2f4b907.lock for /Users/mpletch/Sites/globe/metrics/ga/node_modules/react-i13n
+1090 verbose validateInstall loading /Users/mpletch/Sites/globe/metrics/ga/package.json for validation
+1091 verbose stack Error: The package react does not satisfy its siblings' peerDependencies requirements!
+1091 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+1091 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+1091 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1091 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1091 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1091 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1091 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1091 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1091 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1091 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1092 verbose cwd /Users/mpletch/Sites/globe/metrics/ga
+1093 error Darwin 15.0.0
+1094 error argv "node" "/usr/local/bin/npm" "install" "react-i13n" "--save-dev"
+1095 error node v0.12.4
+1096 error npm  v2.10.1
+1097 error code EPEERINVALID
+1098 error peerinvalid The package react does not satisfy its siblings' peerDependencies requirements!
+1099 verbose exit [ 1, true ]
